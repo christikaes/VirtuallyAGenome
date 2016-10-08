@@ -4,25 +4,27 @@ $(function() {
 
     // Get the genome data
     $.getJSON( "./data/genome1.json", function( data ) {
-      // generate and add the nodes for the a-frame
-      var nodes = "";
+
+      // scale data
       var nodesData = data.nodes;
       for (var i = 0; i < nodesData.length; i++) {
-        var multiplier = 1/50;
-        var radius = nodesData[i].size/50;
-        var color = nodesData[i].color;
-        // ToDo: Replace with xyz
-        var x = Math.floor(Math.random() * 10) + -10;
-        var y = Math.floor(Math.random() * 10) + -5;
-        var z = Math.floor(Math.random() * 10) + -10;
-        nodesData[i].x = x;
-        nodesData[i].y = y;
-        nodesData[i].z = z;
-        // var x = nodesData[i].x;
-        // var y = nodesData[i].y;
-        // var z = nodesData[i].z;
+        nodesData[i].size *= 1/50;
+        nodesData[i].x -= 0.5;
+        nodesData[i].y -= 0.5;
+        nodesData[i].z -= 0.5;
+        nodesData[i].x *= 5;
+        nodesData[i].y *= 5;
+        nodesData[i].z *= 5;
+      }
 
-        console.log("<a-sphere position='" + x + " " + y + " " + z + "' radius='" + radius + "' color='" + color + "'></a-sphere>")
+      // generate and add the nodes for the a-frame
+      var nodes = "";
+      for (var i = 0; i < nodesData.length; i++) {
+        var radius = nodesData[i].size;
+        var color = nodesData[i].color;
+        var x = nodesData[i].x;
+        var y = nodesData[i].y;
+        var z = nodesData[i].z;
 
         nodes += "<a-sphere position='" + x + " " + y + " " + z + "' radius='" + radius + "' color='" + color + "'></a-sphere>"
       }
