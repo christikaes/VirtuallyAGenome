@@ -3,7 +3,7 @@ $(function() {
 
 
     // Get the genome data
-    $.getJSON( "/data/genome1.json", function( data ) {
+    $.getJSON( "./data/genome1.json", function( data ) {
       // generate and add the nodes for the a-frame
       var nodes = "";
       var nodesData = data.nodes;
