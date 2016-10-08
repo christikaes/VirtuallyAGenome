@@ -4,15 +4,47 @@
     <meta charset="utf-8">
     <title>Virtually A Genome</title>
     <meta name="description" content="VirtuallyAGenome">
+
+    <!-- Dependencies -->
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
-    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+    <!-- Code -->
     <script src="./js/line.component.js"></script>
     <script src="./js/generator.js"></script>
+    <link rel="stylesheet" href="./css/controlPane.css" />
+
   </head>
   <body>
     <a-scene>
       <a-entity id="genome-viewer"></a-entity>
       <a-sky color="#ECECEC"></a-sky>
     </a-scene>
+    <div class="control-pane">
+      <nav>
+        <div class="nav-wrapper">
+           <a href="#" class="brand-logo center">Virtually A Genome</a>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col s12 no-padding">
+          <ul class="tabs">
+            <li class="tab col s3"><a class="active" href="#details">Details</a></li>
+            <li class="tab col s3"><a href="#modes">???</a></li>
+          </ul>
+        </div>
+        <div id="details" class="col s12">
+          This is a piece of Chromosome22
+          blah blah blah
+          blah blah blah
+          blah blah blah
+        </div>
+        <div id="modes" class="col s12">???</div>
+      </div>
+    </div>
   </body>
 </html>
