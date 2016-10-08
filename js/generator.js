@@ -12,15 +12,15 @@ $(function() {
         var radius = nodesData[i].size/50;
         var color = nodesData[i].color;
         // ToDo: Replace with xyz
-        // var x = Math.floor(Math.random() * 10) + -10;
-        // var y = Math.floor(Math.random() * 10) + -5;
-        // var z = Math.floor(Math.random() * 10) + -10;
-        // nodesData[i].x = x;
-        // nodesData[i].y = y;
-        // nodesData[i].z = z;
-        var x = nodesData[i].x;
-        var y = nodesData[i].y;
-        var z = nodesData[i].z;
+        var x = Math.floor(Math.random() * 10) + -10;
+        var y = Math.floor(Math.random() * 10) + -5;
+        var z = Math.floor(Math.random() * 10) + -10;
+        nodesData[i].x = x;
+        nodesData[i].y = y;
+        nodesData[i].z = z;
+        // var x = nodesData[i].x;
+        // var y = nodesData[i].y;
+        // var z = nodesData[i].z;
 
         console.log("<a-sphere position='" + x + " " + y + " " + z + "' radius='" + radius + "' color='" + color + "'></a-sphere>")
 
