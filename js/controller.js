@@ -41,11 +41,12 @@ $(function (){
 
       console.table(data);
       $("#3d-genome-viewer-node").empty();
-      var info = "<a-plane color='#3F51B5' height='2' width='4' position='0 0 -3'></a-plane>";
-      info += "<a-entity bmfont-text='text: Name: " + data.name + "; color: #fff; lineHeight: 50' position='-1.9 0.6 -2.99'></a-entity>";
-      info += "<a-entity bmfont-text='text: Id: " + data.id + "; color: #fff; lineHeight: 50' position='-1.9 0.4 -2.99'></a-entity>";
-      info += "<a-entity bmfont-text='text: mid: " + data.mid + "; color: #fff; lineHeight: 50' position='-1.9 0.2 -2.99'></a-entity>";
-      info += "<a-entity bmfont-text='text: fpkm: " + data.fpkm + "; color: #fff; lineHeight: 50' position='-1.9 0 -2.99'></a-entity>";
+      var info = "<a-plane color='#E91E63' height='2' width='4' position='0 0 -3'></a-plane>";
+      info += "<a-entity bmfont-text='text: Details; color: #CCDC140; lineHeight: 50' position='-1.9 0.6 -2.99'></a-entity>";
+      info += "<a-entity bmfont-text='text: Name: " + data.name + "; color: #fff; lineHeight: 50' position='-1.9 0.2 -2.99'></a-entity>";
+      info += "<a-entity bmfont-text='text: Id: " + data.id + "; color: #fff; lineHeight: 50' position='-1.9 0 -2.99'></a-entity>";
+      info += "<a-entity bmfont-text='text: mid: " + data.mid + "; color: #fff; lineHeight: 50' position='-1.9 -0.2 -2.99'></a-entity>";
+      info += "<a-entity bmfont-text='text: fpkm: " + data.fpkm + "; color: #fff; lineHeight: 50' position='-1.9 -0.4 -2.99'></a-entity>";
       // info += "<a-entity bmfont-text='text: tfbs: " + data.tfbs + "; color: #fff; lineHeight: 50' position='-1.9 -1.5 -2.99'></a-entity>";
       $("#3d-genome-viewer-node").append(info);
     }
@@ -57,8 +58,8 @@ $(function (){
         var geneList = ["DUSP6", "HMGB3", "LEFTY1", "PRDM14", "SOX2", "IRX3", "NANOG", "SMAD3", "TBX3", "HIF1A", "KLF4", "PAX3", "SOX17"]
 
         // Select the first gene
-        showGene("DUSP6");
-        selectMenu("DUSP6-menu");
+        showGene("TBX3");
+        selectMenu("TBX3-menu");
 
         // for (var i = 0; i < geneList.length; i++) {
           $("#scene").on('click', function (evt) {
