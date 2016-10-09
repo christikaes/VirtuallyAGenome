@@ -12,9 +12,27 @@ $(function() {
         nodesData[i].x -= 0.5;
         nodesData[i].y -= 0.5;
         nodesData[i].z -= 0.5;
-        nodesData[i].x *= 5;
-        nodesData[i].y *= 5;
-        nodesData[i].z *= 5;
+        nodesData[i].x *= 2;
+        nodesData[i].y *= 2;
+        nodesData[i].z *= 2;
+
+        switch (nodesData[i].color) {
+          case "blue":
+            nodesData[i].color = "#2196F3";
+            break;
+          case "purple":
+            nodesData[i].color = "#9C27B0";
+            break;
+          case "orange":
+            nodesData[i].color = "#FF9800";
+            break;
+          case "grey":
+            nodesData[i].color = "#9E9E9E";
+            break;
+          default:
+
+        }
+
       }
 
       // generate and add the nodes for the a-frame

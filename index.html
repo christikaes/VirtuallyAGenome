@@ -21,7 +21,7 @@
   </head>
   <body>
     <a-scene>
-      <a-entity id="genome-viewer"></a-entity>
+      <a-entity id="genome-viewer" position="0 3 -2"></a-entity>
       <a-sky color="#ECECEC"></a-sky>
     </a-scene>
     <div class="control-pane">
@@ -33,8 +33,8 @@
       <div class="row">
         <div class="col s12 no-padding">
           <ul class="tabs">
-            <li class="tab col s3"><a class="active" href="#details">Details</a></li>
-            <li class="tab col s3"><a href="#modes">???</a></li>
+            <li class="tab col s3"><a class="active" href="#details">Genome</a></li>
+            <li class="tab col s3"><a href="#neighborhood">Neighborhood</a></li>
           </ul>
         </div>
         <div id="details" class="col s12">
@@ -43,7 +43,14 @@
           blah blah blah
           blah blah blah
         </div>
-        <div id="modes" class="col s12">???</div>
+        <div id="neighborhood" class="col s12">
+          SNCA Gene TSS
+          Enhancer Peak
+          CTCF Peak
+          Cohesin Peak
+          ATAC-Seq Peak
+          SNP/CNV
+        </div>
       </div>
     </div>
   </body>
