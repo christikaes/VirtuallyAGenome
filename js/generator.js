@@ -63,7 +63,7 @@ var generate3dGene = function (gene){
 var generate2dGene = function (gene){
   // Get the gene data
   var imgUrl = "./img/genes/" + gene + ".jpg";
-  var imgUrl = "./img/nucleus.jpg";
+  // var imgUrl = "./img/nucleus.jpg";
   var geneView = "<a-image id='" + gene + "-2d' class='2dgene' src='" + imgUrl + "'width='4' height='3'></a-image>"
   $("#2d-genome-viewer").append(geneView);
 }

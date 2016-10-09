@@ -3,6 +3,9 @@ $(function (){
     var showGene = function(gene) {
       $(".3dgene").attr('visible', 'false');
       $("#" + gene).attr('visible', 'true');
+
+      $(".2dgene").attr('visible', 'false');
+      $("#" + gene + "-2d").attr('visible', 'true');
     }
 
     // When the user clicks on a menu, show the correct gene
