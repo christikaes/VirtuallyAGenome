@@ -55,9 +55,17 @@ var generate3dGene = function (gene){
       links += "<a-entity line='color: black; path:" + source.x + " " + source.y + " " + source.z + ", " + target.x + " " + target.y + " " + target.z + "'></a-entity>"
     }
 
-    var geneView = "<a-entity id='" + gene + "' class='3dgene hidden'>" + nodes + links + "</a-entity>"
+    var geneView = "<a-entity id='" + gene + "' class='3dgene'>" + nodes + links + "</a-entity>"
     $("#3d-genome-viewer").append(geneView);
   });
+}
+
+var generate2dGene = function (gene){
+  // Get the gene data
+  var imgUrl = "./img/genes/" + gene + ".jpg";
+  var imgUrl = "./img/nucleus.jpg";
+  var geneView = "<a-image id='" + gene + "-2d' class='2dgene' src='" + imgUrl + "'width='4' height='3'></a-image>"
+  $("#2d-genome-viewer").append(geneView);
 }
 
 $(function() {
@@ -67,6 +75,7 @@ $(function() {
     for (var i = 0; i < geneList.length; i++) {
       console.log(geneList[i])
       generate3dGene(geneList[i]);
+      generate2dGene(geneList[i]);
     }
 
     // Show only of them

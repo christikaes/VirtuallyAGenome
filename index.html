@@ -27,14 +27,16 @@
 
       <!-- Main Menu -->
       <!-- note: bug bm-text can't be inside of an entity -->
-      <a-image src='./img/nucleus.jpg' position='-4 2 -3' width="4" height="3"></a-image>
+      <a-entity id="menu" position = "0 0 -3">
+        <a-image src='./img/nucleus.jpg' position='-4 2 -3' width="4" height="3"></a-image>
+      </a-entity>
 
       <!-- 3d Gnome viewer -->
-      <a-entity id="3d-genome-viewer" position="5 2 0"></a-entity>
+      <a-entity id="3d-genome-viewer" position="10 2 0"></a-entity>
       <!-- 3d Gnome viewer controlls -->
 
       <!-- 2d Genome viewer -->
-      <a-entity id="2d-genome-viewer" position="-5 2 0"></a-entity>
+      <a-entity id="2d-genome-viewer" position="-10 2 0" rotation="0 -90 0"></a-entity>
 
     </a-scene>
     <!-- <div class="control-pane">

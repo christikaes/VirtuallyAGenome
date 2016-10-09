@@ -13,5 +13,5 @@ $(function(){
       menuItems += plane;
       menuItems += text;
     }
-    $("#scene").append(menuItems);
+    $("#menu").append(menuItems);
 });
