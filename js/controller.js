@@ -28,6 +28,26 @@ $(function (){
 
       // Show selected state
       $("#" + id).attr('color', '#E91E63');
+
+      // TODO: Show in ui
+      // Fill in data about node:
+      var data = {
+        name : $("#" + id).data('name'),
+        id : $("#" + id).data('id'),
+        mid : $("#" + id).data('mid'),
+        fpkm : $("#" + id).data('fpkm'),
+        tfbs : $("#" + id).data('tfbs')
+      }
+
+      console.table(data);
+      $("#3d-genome-viewer-node").empty();
+      var info = "<a-plane color='#3F51B5' height='2' width='4' position='0 0 -3'></a-plane>";
+      info += "<a-entity bmfont-text='text: Name: " + data.name + "; color: #fff; lineHeight: 50' position='-1.9 0.6 -2.99'></a-entity>";
+      info += "<a-entity bmfont-text='text: Id: " + data.id + "; color: #fff; lineHeight: 50' position='-1.9 0.4 -2.99'></a-entity>";
+      info += "<a-entity bmfont-text='text: mid: " + data.mid + "; color: #fff; lineHeight: 50' position='-1.9 0.2 -2.99'></a-entity>";
+      info += "<a-entity bmfont-text='text: fpkm: " + data.fpkm + "; color: #fff; lineHeight: 50' position='-1.9 0 -2.99'></a-entity>";
+      // info += "<a-entity bmfont-text='text: tfbs: " + data.tfbs + "; color: #fff; lineHeight: 50' position='-1.9 -1.5 -2.99'></a-entity>";
+      $("#3d-genome-viewer-node").append(info);
     }
 
     // When the user clicks on a menu, show the correct gene
