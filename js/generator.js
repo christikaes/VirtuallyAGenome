@@ -41,7 +41,7 @@ var generate3dGene = function (gene){
       var y = nodesData[i].y;
       var z = nodesData[i].z;
 
-      nodes += "<a-sphere id='" + gene + "-" + i + "' position='" + x + " " + y + " " + z + "' radius='" + radius + "' color='" + color + "'></a-sphere>"
+      nodes += "<a-sphere id='" + gene + "-node-" + i + "' position='" + x + " " + y + " " + z + "' radius='" + radius + "' color='" + color + "'></a-sphere>"
     }
 
     // generate and add the links for the a-frame
@@ -64,7 +64,7 @@ var generate2dGene = function (gene){
   // Get the gene data
   var imgUrl = "./img/genes/" + gene + ".jpg";
   // var imgUrl = "./img/nucleus.jpg";
-  var geneView = "<a-image id='" + gene + "-2d' class='2dgene' src='" + imgUrl + "'width='4' height='3'></a-image>"
+  var geneView = "<a-image id='" + gene + "-2d' class='2dgene' src='" + imgUrl + "'width='5' height='3'></a-image>"
   $("#2d-genome-viewer").append(geneView);
 }
 
@@ -77,8 +77,4 @@ $(function() {
       generate3dGene(geneList[i]);
       generate2dGene(geneList[i]);
     }
-
-    // Show only of them
-    $(".3dgene").attr('visible', 'false');
-    $("#DUSP6").attr('visible', 'true');
 });
