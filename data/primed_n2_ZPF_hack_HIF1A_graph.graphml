@@ -1,0 +1,3146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="label" attr.type="int" for="edge" id="d33" />
+  <key attr.name="weight" attr.type="int" for="edge" id="d32" />
+  <key attr.name="capacity" attr.type="int" for="edge" id="d31" />
+  <key attr.name="label" attr.type="string" for="edge" id="d30" />
+  <key attr.name="gene" attr.type="boolean" for="node" id="d29" />
+  <key attr.name="fpkm" attr.type="double" for="node" id="d28" />
+  <key attr.name="mid" attr.type="int" for="node" id="d27" />
+  <key attr.name="tfbs" attr.type="string" for="node" id="d26" />
+  <key attr.name="grasp_pheno" attr.type="string" for="node" id="d25" />
+  <key attr.name="grasp_pmid" attr.type="string" for="node" id="d24" />
+  <key attr.name="gtex_eqtl_pval" attr.type="double" for="node" id="d23" />
+  <key attr.name="dist2anchor" attr.type="int" for="node" id="d22" />
+  <key attr.name="rsid" attr.type="string" for="node" id="d21" />
+  <key attr.name="deep_score" attr.type="string" for="node" id="d20" />
+  <key attr.name="size" attr.type="int" for="node" id="d19" />
+  <key attr.name="x" attr.type="string" for="node" id="d18" />
+  <key attr.name="y" attr.type="string" for="node" id="d17" />
+  <key attr.name="cadd_score" attr.type="double" for="node" id="d16" />
+  <key attr.name="gen_end" attr.type="int" for="node" id="d15" />
+  <key attr.name="gen_start" attr.type="int" for="node" id="d14" />
+  <key attr.name="mid" attr.type="double" for="node" id="d13" />
+  <key attr.name="z" attr.type="string" for="node" id="d12" />
+  <key attr.name="all_alt" attr.type="string" for="node" id="d11" />
+  <key attr.name="color" attr.type="string" for="node" id="d10" />
+  <key attr.name="name" attr.type="string" for="node" id="d9" />
+  <key attr.name="all_ref" attr.type="string" for="node" id="d8" />
+  <key attr.name="gen_chrom" attr.type="string" for="node" id="d7" />
+  <key attr.name="style" attr.type="string" for="node" id="d6" />
+  <key attr.name="target_gene" attr.type="string" for="graph" id="d5" />
+  <key attr.name="species" attr.type="string" for="graph" id="d4" />
+  <key attr.name="genome_version" attr.type="string" for="graph" id="d3" />
+  <key attr.name="tissue_type" attr.type="string" for="graph" id="d2" />
+  <key attr.name="data_type" attr.type="string" for="graph" id="d1" />
+  <key attr.name="style" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">filled</data>
+    <data key="d1">ChiA-PET</data>
+    <data key="d2">Adipose_Visceral_Omentum</data>
+    <data key="d3">GRCh37.p13</data>
+    <data key="d4">Homo_Sapiens</data>
+    <data key="d5">HIF1A</data>
+    <node id="chr14:g.62217753A&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62217753A&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d12">0.6956</data>
+      <data key="d13">62217753.0</data>
+      <data key="d14">62217753</data>
+      <data key="d15">62217753</data>
+      <data key="d16">0.009145</data>
+      <data key="d17">0.01888</data>
+      <data key="d18">0.43392</data>
+      <data key="d19">10</data>
+      <data key="d20">RBFOX1:7.05, </data>
+    </node>
+    <node id="chr14:g.61788876A&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61788876A&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61788876.0</data>
+      <data key="d14">61788876</data>
+      <data key="d15">61788876</data>
+      <data key="d16">-1.179458</data>
+      <data key="d17">0.71499</data>
+      <data key="d18">0.04797</data>
+      <data key="d12">0.2872</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61937430C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61937430C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">61937430.0</data>
+      <data key="d14">61937430</data>
+      <data key="d21">rs138499308</data>
+      <data key="d15">61937430</data>
+      <data key="d16">0.651933</data>
+      <data key="d17">0.06574</data>
+      <data key="d18">0.18819</data>
+      <data key="d12">0.46089</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62218267A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62218267A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d12">0.67477</data>
+      <data key="d13">62218267.0</data>
+      <data key="d14">62218267</data>
+      <data key="d21">rs149905118</data>
+      <data key="d15">62218267</data>
+      <data key="d16">-0.18118</data>
+      <data key="d17">0.02524</data>
+      <data key="d18">0.35666</data>
+      <data key="d19">10</data>
+      <data key="d20">PABPC4:3.07, </data>
+    </node>
+    <node id="chr14:g.61937372A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61937372A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d12">0.5427</data>
+      <data key="d13">61937372.0</data>
+      <data key="d14">61937372</data>
+      <data key="d21">rs187763817</data>
+      <data key="d15">61937372</data>
+      <data key="d16">0.458672</data>
+      <data key="d17">0.15093</data>
+      <data key="d18">0.08265</data>
+      <data key="d19">10</data>
+      <data key="d20">HNRNPC:3.04, </data>
+    </node>
+    <node id="chr14:g.61788876A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61788876A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">61788876.0</data>
+      <data key="d14">61788876</data>
+      <data key="d15">61788876</data>
+      <data key="d16">-0.673832</data>
+      <data key="d17">0.7286</data>
+      <data key="d18">0.2344</data>
+      <data key="d12">0.10323</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62304376-62304625">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62304376-62304625</data>
+      <data key="d10">purple</data>
+      <data key="d13">62304500.5</data>
+      <data key="d22">0</data>
+      <data key="d17">0.58299</data>
+      <data key="d18">0.13976</data>
+      <data key="d12">0.68525</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:g.62035549C&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62035549C&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">62035549.0</data>
+      <data key="d14">62035549</data>
+      <data key="d21">rs115459793</data>
+      <data key="d15">62035549</data>
+      <data key="d16">1.046766</data>
+      <data key="d17">0.4642</data>
+      <data key="d18">0.95893</data>
+      <data key="d12">0.33653</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61937133C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61937133C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61937133.0</data>
+      <data key="d14">61937133</data>
+      <data key="d21">rs11623371</data>
+      <data key="d15">61937133</data>
+      <data key="d16">0.445292</data>
+      <data key="d18">0.13282</data>
+      <data key="d17">0.09831</data>
+      <data key="d23">0.549883</data>
+      <data key="d12">0.50731</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62162426T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62162426T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62162426.0</data>
+      <data key="d14">62162426</data>
+      <data key="d15">62162426</data>
+      <data key="d16">-0.108067</data>
+      <data key="d17">0.94944</data>
+      <data key="d18">0.66584</data>
+      <data key="d12">0.60863</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62146057A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62146057A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62146057.0</data>
+      <data key="d14">62146057</data>
+      <data key="d21">rs73325574</data>
+      <data key="d15">62146057</data>
+      <data key="d16">0.040919</data>
+      <data key="d17">0.54595</data>
+      <data key="d18">0.22755</data>
+      <data key="d12">0.92848</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62304486G&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62304486G&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62304486.0</data>
+      <data key="d14">62304486</data>
+      <data key="d21">rs193100045</data>
+      <data key="d15">62304486</data>
+      <data key="d16">0.06411</data>
+      <data key="d17">0.5984</data>
+      <data key="d18">0.02297</data>
+      <data key="d12">0.70767</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62162427T&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62162427T&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62162427.0</data>
+      <data key="d14">62162427</data>
+      <data key="d15">62162427</data>
+      <data key="d16">0.031291</data>
+      <data key="d17">0.96224</data>
+      <data key="d18">0.57199</data>
+      <data key="d12">0.65324</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62229191C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62229191C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62229191.0</data>
+      <data key="d14">62229191</data>
+      <data key="d15">62229191</data>
+      <data key="d16">-0.68814</data>
+      <data key="d17">0.25672</data>
+      <data key="d18">0.59753</data>
+      <data key="d12">0.04555</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61937025C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61937025C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61937025.0</data>
+      <data key="d14">61937025</data>
+      <data key="d21">rs186788786</data>
+      <data key="d15">61937025</data>
+      <data key="d16">0.246333</data>
+      <data key="d17">0.16074</data>
+      <data key="d18">0.14264</data>
+      <data key="d12">0.27423</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62162427T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62162427T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62162427.0</data>
+      <data key="d14">62162427</data>
+      <data key="d15">62162427</data>
+      <data key="d16">-0.285643</data>
+      <data key="d17">0.89352</data>
+      <data key="d18">0.76405</data>
+      <data key="d12">0.59115</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62162427T&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62162427T&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d12">0.54303</data>
+      <data key="d13">62162427.0</data>
+      <data key="d14">62162427</data>
+      <data key="d15">62162427</data>
+      <data key="d16">0.078792</data>
+      <data key="d17">0.94466</data>
+      <data key="d18">0.69826</data>
+      <data key="d19">10</data>
+      <data key="d20">GBX1:4.81, </data>
+    </node>
+    <node id="chr14:g.62146005C&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62146005C&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">62146005.0</data>
+      <data key="d14">62146005</data>
+      <data key="d21">rs115048472</data>
+      <data key="d15">62146005</data>
+      <data key="d16">0.55715</data>
+      <data key="d17">0.63797</data>
+      <data key="d18">0.21929</data>
+      <data key="d12">0.90977</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61933299A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61933299A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d24">20081858,20081858,20383146,</data>
+      <data key="d13">61933299.0</data>
+      <data key="d14">61933299</data>
+      <data key="d21">rs12147749</data>
+      <data key="d15">61933299</data>
+      <data key="d16">1.560593</data>
+      <data key="d25">Glucose_homeostasis_traits_(fasting_glucose,_,_fasting_insulin,_,_HOMA-B,_,_HOMA-IR),_,_Glucose_homeostasis_traits_(fasting_glucose,_,_fasting_insulin,_,_HOMA-B,_,_HOMA-IR),_,_Chronic_kidney_disease_(CKD)_and_renal_traits,</data>
+      <data key="d17">0.50734</data>
+      <data key="d18">0.59802</data>
+      <data key="d12">0.98385</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62229191C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62229191C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62229191.0</data>
+      <data key="d14">62229191</data>
+      <data key="d15">62229191</data>
+      <data key="d16">-1.511218</data>
+      <data key="d17">0.19582</data>
+      <data key="d18">0.6268</data>
+      <data key="d12">0.09242</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62034736C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62034736C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62034736.0</data>
+      <data key="d14">62034736</data>
+      <data key="d21">rs111881721</data>
+      <data key="d15">62034736</data>
+      <data key="d16">0.406774</data>
+      <data key="d17">0.40171</data>
+      <data key="d18">0.31602</data>
+      <data key="d12">0.0262</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61969063G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61969063G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d12">0.04867</data>
+      <data key="d13">61969063.0</data>
+      <data key="d14">61969063</data>
+      <data key="d21">rs146891033</data>
+      <data key="d15">61969063</data>
+      <data key="d16">0.04655</data>
+      <data key="d17">0.67479</data>
+      <data key="d18">0.66826</data>
+      <data key="d19">10</data>
+      <data key="d20">RPC155:3.16, </data>
+    </node>
+    <node id="chr14:g.62217781A&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62217781A&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62217781.0</data>
+      <data key="d14">62217781</data>
+      <data key="d15">62217781</data>
+      <data key="d16">-0.09191</data>
+      <data key="d17">0.16364</data>
+      <data key="d18">0.30509</data>
+      <data key="d12">0.8494</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62303629-62305299">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62303629-62305299</data>
+      <data key="d10">green</data>
+      <data key="d13">88658.0</data>
+      <data key="d26">CTCF,CTCF_(C-20),CTCF_(SC-5916),GTF2F1_(RAP-74),JunD,PU.1,RFX5_(N-494),Rad21,SMC3_(ab9263),YY1_(C-20),Znf143_(16618-1-AP),c-Myc</data>
+      <data key="d17">0.46932</data>
+      <data key="d18">0.38442</data>
+      <data key="d12">0.50691</data>
+      <data key="d19">25</data>
+    </node>
+    <node id="chr14:g.62217756A&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62217756A&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d12">0.87332</data>
+      <data key="d13">62217756.0</data>
+      <data key="d14">62217756</data>
+      <data key="d21">rs866794570</data>
+      <data key="d15">62217756</data>
+      <data key="d16">0.042021</data>
+      <data key="d17">0.16477</data>
+      <data key="d18">0.38082</data>
+      <data key="d19">10</data>
+      <data key="d20">RBFOX1:9.47, </data>
+    </node>
+    <node id="chr14:g.62229187T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62229187T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62229187.0</data>
+      <data key="d14">62229187</data>
+      <data key="d15">62229187</data>
+      <data key="d16">-0.079984</data>
+      <data key="d17">0.11968</data>
+      <data key="d18">0.43893</data>
+      <data key="d12">0.12973</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62217804G&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62217804G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62217804.0</data>
+      <data key="d14">62217804</data>
+      <data key="d15">62217804</data>
+      <data key="d16">0.061925</data>
+      <data key="d17">0.09814</data>
+      <data key="d18">0.40685</data>
+      <data key="d12">0.81843</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61937485A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61937485A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d12">0.3925</data>
+      <data key="d13">61937485.0</data>
+      <data key="d14">61937485</data>
+      <data key="d21">rs141425104</data>
+      <data key="d15">61937485</data>
+      <data key="d16">0.214978</data>
+      <data key="d17">0.30562</data>
+      <data key="d18">0.0</data>
+      <data key="d19">10</data>
+      <data key="d20">HSFY2:5.46, </data>
+    </node>
+    <node id="chr14:g.62217781A&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62217781A&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62217781.0</data>
+      <data key="d14">62217781</data>
+      <data key="d15">62217781</data>
+      <data key="d16">0.017088</data>
+      <data key="d17">0.06529</data>
+      <data key="d18">0.29987</data>
+      <data key="d12">0.71962</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62229435A&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62229435A&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62229435.0</data>
+      <data key="d14">62229435</data>
+      <data key="d21">rs183763930</data>
+      <data key="d15">62229435</data>
+      <data key="d16">-0.12766</data>
+      <data key="d17">0.08444</data>
+      <data key="d18">0.61499</data>
+      <data key="d12">0.20016</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:61932673-61933991">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:61932673-61933991</data>
+      <data key="d10">grey</data>
+      <data key="d13">-282474.0</data>
+      <data key="d26">CEBPB,FOXA2_(SC-6554),GR,JunD,Rad21,SMC3_(ab9263),SP1,STAT3,TAF1,TBP,USF-1,c-Fos,p300,p300_(N-15)</data>
+      <data key="d17">0.43779</data>
+      <data key="d18">0.38525</data>
+      <data key="d12">0.64669</data>
+      <data key="d19">20</data>
+    </node>
+    <node id="chr14:g.61933545A&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61933545A&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61933545.0</data>
+      <data key="d14">61933545</data>
+      <data key="d21">rs150256957</data>
+      <data key="d15">61933545</data>
+      <data key="d16">0.226211</data>
+      <data key="d17">0.36456</data>
+      <data key="d18">0.70149</data>
+      <data key="d12">0.93291</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62076085-62076887">
+      <data key="d17">0.91041</data>
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62076085-62076887</data>
+      <data key="d22">0</data>
+      <data key="d10">purple</data>
+      <data key="d18">0.27551</data>
+      <data key="d12">0.57619</data>
+      <data key="d13">62076486.0</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:62217602-62218307">
+      <data key="d17">0.109</data>
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62217602-62218307</data>
+      <data key="d22">0</data>
+      <data key="d10">purple</data>
+      <data key="d18">0.43246</data>
+      <data key="d12">0.73339</data>
+      <data key="d13">62217954.5</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:g.62035381C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62035381C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62035381.0</data>
+      <data key="d14">62035381</data>
+      <data key="d21">rs77643143</data>
+      <data key="d15">62035381</data>
+      <data key="d16">0.462893</data>
+      <data key="d17">0.25377</data>
+      <data key="d18">0.92604</data>
+      <data key="d12">0.45347</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61969549G&gt;C">
+      <data key="d18">0.59777</data>
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61969549G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d24">20383146,20686565,20881960,21637794,</data>
+      <data key="d13">61969549.0</data>
+      <data key="d14">61969549</data>
+      <data key="d21">rs10143237</data>
+      <data key="d15">61969549</data>
+      <data key="d16">0.016625</data>
+      <data key="d25">Chronic_kidney_disease_(CKD)_and_renal_traits,Lipid_level_measurements,Height,Gene_expression_in_liver,</data>
+      <data key="d17">0.81783</data>
+      <data key="d23">0.294113</data>
+      <data key="d12">0.12219</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62073913-62077057">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62073913-62077057</data>
+      <data key="d10">red</data>
+      <data key="d13">-88853.0</data>
+      <data key="d26">CTCF,CTCF_(SC-5916),ERalpha_a,FOXA1_(C-20),FOXA1_(SC-101058),FOXA2_(SC-6554),GATA-2,HNF4A_(H-171),HNF4G_(SC-6558),MafF_(M8194),MafK_(SC-477),Max,NANOG_(SC-33759),NRSF,POU5F1_(SC-9081),RXRA,Rad21,USF-1,USF1_(SC-8983),USF2,YY1_(C-20),p300</data>
+      <data key="d17">0.73855</data>
+      <data key="d18">0.4553</data>
+      <data key="d12">0.57309</data>
+      <data key="d19">25</data>
+    </node>
+    <node id="chr14:g.62229434G&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62229434G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62229434.0</data>
+      <data key="d14">62229434</data>
+      <data key="d21">rs7151978</data>
+      <data key="d15">62229434</data>
+      <data key="d16">-0.024419</data>
+      <data key="d18">0.51699</data>
+      <data key="d17">0.24416</data>
+      <data key="d23">0.680181</data>
+      <data key="d12">0.04047</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62145445C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62145445C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62145445.0</data>
+      <data key="d14">62145445</data>
+      <data key="d21">rs75448773</data>
+      <data key="d15">62145445</data>
+      <data key="d16">-0.322749</data>
+      <data key="d17">0.71187</data>
+      <data key="d18">0.93402</data>
+      <data key="d12">0.53501</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61788876A&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61788876A&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">61788876.0</data>
+      <data key="d14">61788876</data>
+      <data key="d15">61788876</data>
+      <data key="d16">-1.256933</data>
+      <data key="d17">0.81193</data>
+      <data key="d18">0.23308</data>
+      <data key="d12">0.16505</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62003953-62005185">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62003953-62005185</data>
+      <data key="d10">red</data>
+      <data key="d13">-159769.0</data>
+      <data key="d26">ATF3,BHLHE40,CEBPB,FOSL2,FOXA1_(C-20),FOXA1_(SC-101058),FOXA2_(SC-6554),GATA3_(SC-268),GR,GTF2F1_(RAP-74),HDAC2_(SC-6296),HNF4G_(SC-6558),JunD,MafF_(M8194),MafK_(SC-477),MafK_(ab50322),Max,Mxi1_(bHLH),Pol2,Pol2-4H8,RXRA,Rad21,SP1,STAT1,STAT3,TBP,TCF4,USF-1,USF1_(SC-8983),USF2,c-Fos,c-Jun,p300,p300_(N-15)</data>
+      <data key="d17">0.5191</data>
+      <data key="d18">0.75014</data>
+      <data key="d12">0.31635</data>
+      <data key="d19">25</data>
+    </node>
+    <node id="chr14:g.62145404C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62145404C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62145404.0</data>
+      <data key="d14">62145404</data>
+      <data key="d21">rs140385607</data>
+      <data key="d15">62145404</data>
+      <data key="d16">-0.259004</data>
+      <data key="d17">0.74567</data>
+      <data key="d18">0.90132</data>
+      <data key="d12">0.41724</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62034250-62036112">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62034250-62036112</data>
+      <data key="d10">green</data>
+      <data key="d13">-129157.0</data>
+      <data key="d26">CTCF,EBF,EBF1_(C-8),ELF1_(SC-631),ERalpha_a,Egr-1,FOXA1_(C-20),FOXA2_(SC-6554),HA-E2F1,PAX5-C20,PAX5-N19,Pol2,TAF1,TCF12,USF-1,ZEB1_(SC-25388),c-Myc,p300</data>
+      <data key="d17">0.51155</data>
+      <data key="d18">0.61514</data>
+      <data key="d12">0.39792</data>
+      <data key="d19">25</data>
+    </node>
+    <node id="chr14:g.62035400G&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62035400G&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62035400.0</data>
+      <data key="d14">62035400</data>
+      <data key="d21">rs75919543</data>
+      <data key="d15">62035400</data>
+      <data key="d16">0.066074</data>
+      <data key="d17">0.36592</data>
+      <data key="d18">0.9608</data>
+      <data key="d12">0.55872</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61933516G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61933516G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">61933516.0</data>
+      <data key="d14">61933516</data>
+      <data key="d21">rs140185001</data>
+      <data key="d15">61933516</data>
+      <data key="d16">0.177033</data>
+      <data key="d17">0.30782</data>
+      <data key="d18">0.54468</data>
+      <data key="d12">0.96157</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62161745T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62161745T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62161745.0</data>
+      <data key="d14">62161745</data>
+      <data key="d21">rs143437030</data>
+      <data key="d15">62161745</data>
+      <data key="d16">0.088996</data>
+      <data key="d17">0.97246</data>
+      <data key="d18">0.61156</data>
+      <data key="d12">0.568</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62035063-62036017">
+      <data key="d17">0.38601</data>
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62035063-62036017</data>
+      <data key="d22">0</data>
+      <data key="d10">purple</data>
+      <data key="d18">0.91053</data>
+      <data key="d12">0.42496</data>
+      <data key="d13">62035540.0</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:g.61937119C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61937119C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61937119.0</data>
+      <data key="d14">61937119</data>
+      <data key="d21">rs114591496</data>
+      <data key="d15">61937119</data>
+      <data key="d16">0.048567</data>
+      <data key="d17">0.12962</data>
+      <data key="d18">0.11604</data>
+      <data key="d12">0.37289</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62076754C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62076754C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62076754.0</data>
+      <data key="d14">62076754</data>
+      <data key="d21">rs118073800</data>
+      <data key="d15">62076754</data>
+      <data key="d16">0.438754</data>
+      <data key="d17">0.93819</data>
+      <data key="d18">0.23433</data>
+      <data key="d12">0.46478</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62278602-62279992">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62278602-62279992</data>
+      <data key="d10">grey</data>
+      <data key="d13">63491.0</data>
+      <data key="d26">CtBP2</data>
+      <data key="d17">0.49997</data>
+      <data key="d18">0.13335</data>
+      <data key="d12">0.58158</data>
+      <data key="d19">20</data>
+    </node>
+    <node id="chr14:g.62162589C&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62162589C&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">62162589.0</data>
+      <data key="d14">62162589</data>
+      <data key="d21">rs113855813</data>
+      <data key="d15">62162589</data>
+      <data key="d16">-0.016553</data>
+      <data key="d17">0.80497</data>
+      <data key="d18">0.65062</data>
+      <data key="d12">0.83812</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:61922756-61924256">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:61922756-61924256</data>
+      <data key="d10">green</data>
+      <data key="d13">-292300.0</data>
+      <data key="d26">CTCF,CTCF_(C-20),CTCF_(SC-5916),EBF,EBF1_(C-8),Rad21,SMC3_(ab9263),Znf143_(16618-1-AP)</data>
+      <data key="d17">0.49844</data>
+      <data key="d18">0.29434</data>
+      <data key="d12">0.53628</data>
+      <data key="d19">25</data>
+    </node>
+    <node id="chr14:g.61788885G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61788885G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">61788885.0</data>
+      <data key="d14">61788885</data>
+      <data key="d15">61788885</data>
+      <data key="d16">-0.204629</data>
+      <data key="d17">0.5966</data>
+      <data key="d18">0.05568</data>
+      <data key="d12">0.1956</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62034573-62034970">
+      <data key="d17">0.45843</data>
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62034573-62034970</data>
+      <data key="d22">0</data>
+      <data key="d10">purple</data>
+      <data key="d18">0.46711</data>
+      <data key="d12">0.11731</data>
+      <data key="d13">62034771.5</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:g.62162426T&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62162426T&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62162426.0</data>
+      <data key="d14">62162426</data>
+      <data key="d15">62162426</data>
+      <data key="d16">0.171086</data>
+      <data key="d17">0.92864</data>
+      <data key="d18">0.56164</data>
+      <data key="d12">0.74164</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62162589C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62162589C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62162589.0</data>
+      <data key="d14">62162589</data>
+      <data key="d21">rs113855813</data>
+      <data key="d15">62162589</data>
+      <data key="d16">-0.047759</data>
+      <data key="d17">0.85068</data>
+      <data key="d18">0.67872</data>
+      <data key="d12">0.79097</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61788885G&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61788885G&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61788885.0</data>
+      <data key="d14">61788885</data>
+      <data key="d15">61788885</data>
+      <data key="d16">-0.530671</data>
+      <data key="d17">0.76932</data>
+      <data key="d18">0.18574</data>
+      <data key="d12">0.15645</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61969639G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61969639G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">61969639.0</data>
+      <data key="d14">61969639</data>
+      <data key="d21">rs192158885</data>
+      <data key="d15">61969639</data>
+      <data key="d16">0.309055</data>
+      <data key="d17">0.63715</data>
+      <data key="d18">0.57408</data>
+      <data key="d12">0.01449</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61969569C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61969569C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61969569.0</data>
+      <data key="d14">61969569</data>
+      <data key="d21">rs189053504</data>
+      <data key="d15">61969569</data>
+      <data key="d16">2.206636</data>
+      <data key="d17">0.62587</data>
+      <data key="d18">0.76091</data>
+      <data key="d12">0.0871</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61936979G&gt;A">
+      <data key="d18">0.18285</data>
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61936979G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d24">20339536</data>
+      <data key="d13">61936979.0</data>
+      <data key="d14">61936979</data>
+      <data key="d21">rs11623383</data>
+      <data key="d15">61936979</data>
+      <data key="d16">0.140909</data>
+      <data key="d25">Response_to_statin_treatment_(simvastatin,__pravastatin,__atorvastatin),__change_in_cholesterol_levels,_,_</data>
+      <data key="d17">0.07</data>
+      <data key="d23">0.527994</data>
+      <data key="d12">0.39144</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61933022C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61933022C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61933022.0</data>
+      <data key="d14">61933022</data>
+      <data key="d21">rs117130267</data>
+      <data key="d15">61933022</data>
+      <data key="d16">0.353012</data>
+      <data key="d17">0.47797</data>
+      <data key="d18">0.72305</data>
+      <data key="d12">0.92757</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62030768-62031762">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62030768-62031762</data>
+      <data key="d10">grey</data>
+      <data key="d13">-133073.0</data>
+      <data key="d26">AP-2alpha,AP-2gamma,CEBPB,CTCF,E2F1,GATA-2,GR,GTF2F1_(RAP-74),HA-E2F1,JunD,PAX5-C20,PAX5-N19,Pol2,Pol2-4H8,Rad21,STAT1,STAT3,TAF1,TBP,c-Fos,eGFP-JunD,p300_(N-15)</data>
+      <data key="d17">0.7284</data>
+      <data key="d18">0.55832</data>
+      <data key="d12">0.66179</data>
+      <data key="d19">20</data>
+    </node>
+    <node id="chr14:62160679-62164134">
+      <data key="d6">filled</data>
+      <data key="d12">0.56388</data>
+      <data key="d9">HIF1A: chr14:62160679-62164134</data>
+      <data key="d10">blue</data>
+      <data key="d27">1</data>
+      <data key="d28">154.1541</data>
+      <data key="d26">ATF3,BAF155,BHLHE40,CCNT2,CTCF,CTCF_(C-20),CTCF_(SC-5916),E2F1,E2F6,E2F6_(H-50),ELF1_(SC-631),ETS1,Egr-1,FOSL2,GATA3_(SC-268),GTF2B,GTF2F1_(RAP-74),HA-E2F1,HDAC2_(SC-6296),HEY1,HMGN3,IRF1,Ini1,Max,Mxi1_(bHLH),NF-YA,NF-YB,NFKB,NRSF,Oct-2,PAX5-C20,POU2F2,Pbx3,Pol2,Pol2(b),Pol2(phosphoS2),Pol2-4H8,Rad21,SMC3_(ab9263),SP1,SREBP1,STAT3,Sin3Ak-20,TAF1,TAF7_(SQ-8),TBP,TCF12,TCF4,USF-1,USF1_(SC-8983),USF2,YY1,YY1_(C-20),ZEB1_(SC-25388),c-Fos,c-Myc</data>
+      <data key="d17">0.63729</data>
+      <data key="d18">0.51889</data>
+      <data key="d29">True</data>
+      <data key="d19">50</data>
+    </node>
+    <node id="chr14:g.62162493C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62162493C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62162493.0</data>
+      <data key="d14">62162493</data>
+      <data key="d15">62162493</data>
+      <data key="d16">0.112035</data>
+      <data key="d17">0.79688</data>
+      <data key="d18">0.78162</data>
+      <data key="d12">0.75446</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62229200C&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62229200C&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d12">0.0898</data>
+      <data key="d13">62229200.0</data>
+      <data key="d14">62229200</data>
+      <data key="d15">62229200</data>
+      <data key="d16">-0.115496</data>
+      <data key="d17">0.16351</data>
+      <data key="d18">0.52233</data>
+      <data key="d19">10</data>
+      <data key="d20">CNOT4:-4.79, </data>
+    </node>
+    <node id="chr14:g.62076208A&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62076208A&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62076208.0</data>
+      <data key="d14">62076208</data>
+      <data key="d21">rs180874157</data>
+      <data key="d15">62076208</data>
+      <data key="d16">0.118961</data>
+      <data key="d17">0.87275</data>
+      <data key="d18">0.17476</data>
+      <data key="d12">0.65775</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:61787402-61788945">
+      <data key="d17">0.69485</data>
+      <data key="d6">filled</data>
+      <data key="d9">chr14:61787402-61788945</data>
+      <data key="d22">0</data>
+      <data key="d10">purple</data>
+      <data key="d18">0.12223</data>
+      <data key="d12">0.21179</data>
+      <data key="d13">61788173.5</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:g.61969021C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61969021C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61969021.0</data>
+      <data key="d14">61969021</data>
+      <data key="d21">rs184684073</data>
+      <data key="d15">61969021</data>
+      <data key="d16">-0.139899</data>
+      <data key="d17">0.64271</data>
+      <data key="d18">0.80794</data>
+      <data key="d12">0.13591</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62145656C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62145656C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62145656.0</data>
+      <data key="d14">62145656</data>
+      <data key="d21">rs116895422</data>
+      <data key="d15">62145656</data>
+      <data key="d16">1.026426</data>
+      <data key="d17">0.8591</data>
+      <data key="d18">0.81697</data>
+      <data key="d12">0.42263</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61933499C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61933499C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61933499.0</data>
+      <data key="d14">61933499</data>
+      <data key="d21">rs147806512</data>
+      <data key="d15">61933499</data>
+      <data key="d16">0.129008</data>
+      <data key="d17">0.45636</data>
+      <data key="d18">0.66477</data>
+      <data key="d12">0.96323</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62034818C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62034818C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62034818.0</data>
+      <data key="d14">62034818</data>
+      <data key="d21">rs115990751</data>
+      <data key="d15">62034818</data>
+      <data key="d16">1.522955</data>
+      <data key="d17">0.43142</data>
+      <data key="d18">0.37102</data>
+      <data key="d12">0.0</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61937384A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61937384A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">61937384.0</data>
+      <data key="d14">61937384</data>
+      <data key="d21">rs10136473</data>
+      <data key="d15">61937384</data>
+      <data key="d16">0.896494</data>
+      <data key="d18">0.01942</data>
+      <data key="d17">0.25298</data>
+      <data key="d23">0.110364</data>
+      <data key="d12">0.4149</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:61941509-61942904">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:61941509-61942904</data>
+      <data key="d10">grey</data>
+      <data key="d13">-273599.5</data>
+      <data key="d26">CEBPB,CTCF,CTCF_(C-20),CTCF_(SC-5916),Rad21,SMC3_(ab9263),STAT3</data>
+      <data key="d17">0.52319</data>
+      <data key="d18">0.5085</data>
+      <data key="d12">0.44856</data>
+      <data key="d19">20</data>
+    </node>
+    <node id="chr14:g.62218049C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62218049C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62218049.0</data>
+      <data key="d14">62218049</data>
+      <data key="d21">rs61547613</data>
+      <data key="d15">62218049</data>
+      <data key="d16">-0.037401</data>
+      <data key="d17">0.04956</data>
+      <data key="d18">0.51822</data>
+      <data key="d12">0.75145</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62218261T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62218261T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62218261.0</data>
+      <data key="d14">62218261</data>
+      <data key="d21">rs138995866</data>
+      <data key="d15">62218261</data>
+      <data key="d16">-0.140979</data>
+      <data key="d17">0.0</data>
+      <data key="d18">0.46663</data>
+      <data key="d12">0.63247</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61969279A&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61969279A&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">61969279.0</data>
+      <data key="d14">61969279</data>
+      <data key="d21">rs145640522</data>
+      <data key="d15">61969279</data>
+      <data key="d16">0.044452</data>
+      <data key="d17">0.73089</data>
+      <data key="d18">0.78426</data>
+      <data key="d12">0.17208</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62076483G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62076483G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">62076483.0</data>
+      <data key="d14">62076483</data>
+      <data key="d21">rs184289560</data>
+      <data key="d15">62076483</data>
+      <data key="d16">0.077964</data>
+      <data key="d17">0.94435</data>
+      <data key="d18">0.26198</data>
+      <data key="d12">0.61019</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62076849C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62076849C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d12">0.56535</data>
+      <data key="d13">62076849.0</data>
+      <data key="d14">62076849</data>
+      <data key="d21">rs145021256</data>
+      <data key="d15">62076849</data>
+      <data key="d16">0.447247</data>
+      <data key="d17">0.87033</data>
+      <data key="d18">0.13549</data>
+      <data key="d19">10</data>
+      <data key="d20">TEAD4:5.41, </data>
+    </node>
+    <node id="chr14:g.62217788T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62217788T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62217788.0</data>
+      <data key="d14">62217788</data>
+      <data key="d15">62217788</data>
+      <data key="d16">-0.181839</data>
+      <data key="d17">0.11471</data>
+      <data key="d18">0.50179</data>
+      <data key="d12">0.83184</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62217788T&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62217788T&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62217788.0</data>
+      <data key="d14">62217788</data>
+      <data key="d15">62217788</data>
+      <data key="d16">0.018128</data>
+      <data key="d17">0.0445</data>
+      <data key="d18">0.58795</data>
+      <data key="d12">0.70679</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61933271A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61933271A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d12">0.84661</data>
+      <data key="d13">61933271.0</data>
+      <data key="d14">61933271</data>
+      <data key="d21">rs80356401</data>
+      <data key="d15">61933271</data>
+      <data key="d16">1.56899</data>
+      <data key="d17">0.27919</data>
+      <data key="d18">0.74629</data>
+      <data key="d19">10</data>
+      <data key="d20">FOXD3:22.22, FOXD2:21.42, FOXC1:10.49, FOXA2:6.13, FOXA1:5.72, </data>
+    </node>
+    <node id="chr14:g.61788828T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.61788828T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">61788828.0</data>
+      <data key="d14">61788828</data>
+      <data key="d21">rs866830738</data>
+      <data key="d15">61788828</data>
+      <data key="d16">-0.217821</data>
+      <data key="d17">0.68973</data>
+      <data key="d18">0.13876</data>
+      <data key="d12">0.14163</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61937081G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61937081G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">61937081.0</data>
+      <data key="d14">61937081</data>
+      <data key="d21">rs192004698</data>
+      <data key="d15">61937081</data>
+      <data key="d16">0.162762</data>
+      <data key="d17">0.18583</data>
+      <data key="d18">0.0531</data>
+      <data key="d12">0.45017</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62035764T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62035764T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62035764.0</data>
+      <data key="d14">62035764</data>
+      <data key="d21">rs74675691</data>
+      <data key="d15">62035764</data>
+      <data key="d16">0.059492</data>
+      <data key="d17">0.44507</data>
+      <data key="d18">0.98251</data>
+      <data key="d12">0.51956</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61969437C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61969437C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d12">0.07619</data>
+      <data key="d13">61969437.0</data>
+      <data key="d14">61969437</data>
+      <data key="d21">rs73307031</data>
+      <data key="d15">61969437</data>
+      <data key="d16">0.179751</data>
+      <data key="d17">0.76629</data>
+      <data key="d18">0.60807</data>
+      <data key="d19">10</data>
+      <data key="d20">KHDRBS1:3.06, </data>
+    </node>
+    <node id="chr14:62221451-62222721">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62221451-62222721</data>
+      <data key="d10">red</data>
+      <data key="d13">6280.0</data>
+      <data key="d26">CtBP2,Pol2,Pol2(b),Pol2-4H8,SP1,TCF12,USF-1,USF2,p300</data>
+      <data key="d17">0.21093</data>
+      <data key="d18">0.39323</data>
+      <data key="d12">0.26963</data>
+      <data key="d19">25</data>
+    </node>
+    <node id="chr14:g.61933068C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61933068C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61933068.0</data>
+      <data key="d14">61933068</data>
+      <data key="d21">rs144176238</data>
+      <data key="d15">61933068</data>
+      <data key="d16">0.481895</data>
+      <data key="d17">0.24539</data>
+      <data key="d18">0.67366</data>
+      <data key="d12">0.87936</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61937224A&gt;G">
+      <data key="d18">0.03969</data>
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61937224A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d24">20081858</data>
+      <data key="d13">61937224.0</data>
+      <data key="d14">61937224</data>
+      <data key="d21">rs3783786</data>
+      <data key="d15">61937224</data>
+      <data key="d16">0.181661</data>
+      <data key="d25">Glucose_homeostasis_traits_(fasting_glucose,__fasting_insulin,__HOMA-B,__HOMA-IR),_,_</data>
+      <data key="d17">0.21895</data>
+      <data key="d23">0.280575</data>
+      <data key="d12">0.55818</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62229188C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62229188C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62229188.0</data>
+      <data key="d14">62229188</data>
+      <data key="d21">rs137940550</data>
+      <data key="d15">62229188</data>
+      <data key="d16">-0.305374</data>
+      <data key="d17">0.1906</data>
+      <data key="d18">0.45163</data>
+      <data key="d12">0.06946</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62217771G&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62217771G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d12">0.77889</data>
+      <data key="d13">62217771.0</data>
+      <data key="d14">62217771</data>
+      <data key="d15">62217771</data>
+      <data key="d16">0.062711</data>
+      <data key="d17">0.09449</data>
+      <data key="d18">0.57948</data>
+      <data key="d19">10</data>
+      <data key="d20">RBFOX1:6.61, </data>
+    </node>
+    <node id="chr14:g.62229203A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62229203A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62229203.0</data>
+      <data key="d14">62229203</data>
+      <data key="d15">62229203</data>
+      <data key="d16">-1.727427</data>
+      <data key="d17">0.18973</data>
+      <data key="d18">0.72506</data>
+      <data key="d12">0.16717</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61933294C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61933294C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61933294.0</data>
+      <data key="d14">61933294</data>
+      <data key="d21">rs12101078</data>
+      <data key="d15">61933294</data>
+      <data key="d16">1.481162</data>
+      <data key="d17">0.43089</data>
+      <data key="d18">0.55376</data>
+      <data key="d12">0.99406</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61788856A&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61788856A&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">61788856.0</data>
+      <data key="d14">61788856</data>
+      <data key="d15">61788856</data>
+      <data key="d16">-0.247696</data>
+      <data key="d17">0.79153</data>
+      <data key="d18">0.11934</data>
+      <data key="d12">0.2534</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62229188C&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62229188C&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">62229188.0</data>
+      <data key="d14">62229188</data>
+      <data key="d15">62229188</data>
+      <data key="d16">-0.976452</data>
+      <data key="d17">0.13859</data>
+      <data key="d18">0.68462</data>
+      <data key="d12">0.1751</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62146004C&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62146004C&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">62146004.0</data>
+      <data key="d14">62146004</data>
+      <data key="d21">rs75905682</data>
+      <data key="d15">62146004</data>
+      <data key="d16">0.395935</data>
+      <data key="d17">0.66353</data>
+      <data key="d18">0.30206</data>
+      <data key="d12">0.93755</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61788846T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.61788846T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">61788846.0</data>
+      <data key="d14">61788846</data>
+      <data key="d15">61788846</data>
+      <data key="d16">-0.3109</data>
+      <data key="d17">0.77709</data>
+      <data key="d18">0.07509</data>
+      <data key="d12">0.31879</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62162428T&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62162428T&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d12">0.70092</data>
+      <data key="d13">62162428.0</data>
+      <data key="d14">62162428</data>
+      <data key="d15">62162428</data>
+      <data key="d16">-0.161386</data>
+      <data key="d17">0.79267</data>
+      <data key="d18">0.81261</data>
+      <data key="d19">10</data>
+      <data key="d20">GBX1:4.62, </data>
+    </node>
+    <node id="chr14:g.62229188C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62229188C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62229188.0</data>
+      <data key="d14">62229188</data>
+      <data key="d15">62229188</data>
+      <data key="d16">-0.318367</data>
+      <data key="d17">0.04748</data>
+      <data key="d18">0.5159</data>
+      <data key="d12">0.236</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62228463-62229700">
+      <data key="d6">filled</data>
+      <data key="d12">0.35335</data>
+      <data key="d9">SNAPC1: chr14:62228463-62229700</data>
+      <data key="d10">blue</data>
+      <data key="d27">13268</data>
+      <data key="d28">72.68771</data>
+      <data key="d26">CCNT2,CTCF,E2F6,E2F6_(H-50),ELF1_(SC-631),ETS1,FOXA1_(C-20),FOXA1_(SC-101058),FOXA2_(SC-6554),GABP,GTF2F1_(RAP-74),HEY1,Max,Mxi1_(bHLH),NRSF,Nrf1,Oct-2,POU2F2,Pbx3,Pol2,Pol2(b),Pol2(phosphoS2),Pol2-4H8,RFX5_(N-494),Sin3Ak-20,TAF1,TAF7_(SQ-8),TBP,USF1_(SC-8983),YY1,YY1_(C-20),ZNF263,c-Myc</data>
+      <data key="d17">0.31708</data>
+      <data key="d18">0.42764</data>
+      <data key="d29">True</data>
+      <data key="d19">25</data>
+    </node>
+    <node id="chr14:62145238-62145660">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62145238-62145660</data>
+      <data key="d10">purple</data>
+      <data key="d13">62145449.0</data>
+      <data key="d22">15020</data>
+      <data key="d17">0.75861</data>
+      <data key="d18">0.80909</data>
+      <data key="d12">0.50803</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:g.62076542G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62076542G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">62076542.0</data>
+      <data key="d14">62076542</data>
+      <data key="d21">rs117195624</data>
+      <data key="d15">62076542</data>
+      <data key="d16">0.174809</data>
+      <data key="d17">0.90461</data>
+      <data key="d18">0.25845</data>
+      <data key="d12">0.70527</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:62228518-62229621">
+      <data key="d17">0.15995</data>
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62228518-62229621</data>
+      <data key="d22">0</data>
+      <data key="d10">purple</data>
+      <data key="d18">0.57006</data>
+      <data key="d12">0.16049</data>
+      <data key="d13">62229069.5</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:g.61936906A&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61936906A&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61936906.0</data>
+      <data key="d14">61936906</data>
+      <data key="d21">rs183534826</data>
+      <data key="d15">61936906</data>
+      <data key="d16">-0.158144</data>
+      <data key="d17">0.09931</data>
+      <data key="d18">0.17485</data>
+      <data key="d12">0.32069</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62035218G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62035218G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">62035218.0</data>
+      <data key="d14">62035218</data>
+      <data key="d21">rs150760142</data>
+      <data key="d15">62035218</data>
+      <data key="d16">0.243367</data>
+      <data key="d17">0.28281</data>
+      <data key="d18">0.93226</data>
+      <data key="d12">0.52695</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61933495C&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61933495C&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">61933495.0</data>
+      <data key="d14">61933495</data>
+      <data key="d21">rs111972386</data>
+      <data key="d15">61933495</data>
+      <data key="d16">0.390261</data>
+      <data key="d17">0.46121</data>
+      <data key="d18">0.49409</data>
+      <data key="d12">1.0</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61937164T&gt;C">
+      <data key="d18">0.04556</data>
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.61937164T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d12">0.31227</data>
+      <data key="d24">19875103,20935629,</data>
+      <data key="d13">61937164.0</data>
+      <data key="d14">61937164</data>
+      <data key="d21">rs3783787</data>
+      <data key="d15">61937164</data>
+      <data key="d16">0.227796</data>
+      <data key="d25">Response_to_antipsychotics,Waist:hip_ratio,</data>
+      <data key="d17">0.25903</data>
+      <data key="d23">0.531308</data>
+      <data key="d19">10</data>
+      <data key="d20">PAX2:7.84, </data>
+    </node>
+    <node id="chr14:62161531-62163000">
+      <data key="d17">0.86156</data>
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62161531-62163000</data>
+      <data key="d22">0</data>
+      <data key="d10">purple</data>
+      <data key="d18">0.66769</data>
+      <data key="d12">0.68674</data>
+      <data key="d13">62162265.5</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:g.61937292T&gt;C">
+      <data key="d18">0.00365</data>
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.61937292T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d12">0.50451</data>
+      <data key="d24">17206144,18445777,21124317,</data>
+      <data key="d13">61937292.0</data>
+      <data key="d14">61937292</data>
+      <data key="d21">rs3783785</data>
+      <data key="d15">61937292</data>
+      <data key="d16">-0.112</data>
+      <data key="d25">Stroke,Bone_mineral_density_(BMD),Neuroblastoma,</data>
+      <data key="d17">0.27237</data>
+      <data key="d23">0.530991</data>
+      <data key="d19">10</data>
+      <data key="d20">HuR:9.92, U2AF2:5.15, HuR:3.41, </data>
+    </node>
+    <node id="chr14:g.61788833C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61788833C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">61788833.0</data>
+      <data key="d14">61788833</data>
+      <data key="d15">61788833</data>
+      <data key="d16">-0.663284</data>
+      <data key="d17">0.57307</data>
+      <data key="d18">0.10298</data>
+      <data key="d12">0.15104</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61933409C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61933409C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">61933409.0</data>
+      <data key="d14">61933409</data>
+      <data key="d21">rs74369734</data>
+      <data key="d15">61933409</data>
+      <data key="d16">0.477226</data>
+      <data key="d17">0.31821</data>
+      <data key="d18">0.73763</data>
+      <data key="d12">0.88866</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62304544C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62304544C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62304544.0</data>
+      <data key="d14">62304544</data>
+      <data key="d21">rs79997366</data>
+      <data key="d15">62304544</data>
+      <data key="d16">0.198062</data>
+      <data key="d17">0.64731</data>
+      <data key="d18">0.06265</data>
+      <data key="d12">0.75545</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61969579G&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61969579G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">61969579.0</data>
+      <data key="d14">61969579</data>
+      <data key="d21">rs181998420</data>
+      <data key="d15">61969579</data>
+      <data key="d16">1.545427</data>
+      <data key="d17">0.58094</data>
+      <data key="d18">0.64488</data>
+      <data key="d12">0.01964</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61932959G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61932959G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">61932959.0</data>
+      <data key="d14">61932959</data>
+      <data key="d21">rs78799703</data>
+      <data key="d15">61932959</data>
+      <data key="d16">0.227663</data>
+      <data key="d17">0.2601</data>
+      <data key="d18">0.52985</data>
+      <data key="d12">0.93852</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62229280A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62229280A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62229280.0</data>
+      <data key="d14">62229280</data>
+      <data key="d15">62229280</data>
+      <data key="d16">-0.002972</data>
+      <data key="d17">0.23827</data>
+      <data key="d18">0.68605</data>
+      <data key="d12">0.09256</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61933225G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61933225G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d12">0.99032</data>
+      <data key="d13">61933225.0</data>
+      <data key="d14">61933225</data>
+      <data key="d21">rs114628350</data>
+      <data key="d15">61933225</data>
+      <data key="d16">0.143727</data>
+      <data key="d17">0.37034</data>
+      <data key="d18">0.47143</data>
+      <data key="d19">10</data>
+      <data key="d20">HNRNPH2:9.33, </data>
+    </node>
+    <node id="chr14:g.61969566C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61969566C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61969566.0</data>
+      <data key="d14">61969566</data>
+      <data key="d21">rs149594009</data>
+      <data key="d15">61969566</data>
+      <data key="d16">2.139107</data>
+      <data key="d17">0.57041</data>
+      <data key="d18">0.72577</data>
+      <data key="d12">0.05001</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61788870T&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.61788870T&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">61788870.0</data>
+      <data key="d14">61788870</data>
+      <data key="d15">61788870</data>
+      <data key="d16">-0.230161</data>
+      <data key="d17">0.6619</data>
+      <data key="d18">0.01401</data>
+      <data key="d12">0.31194</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61788870T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.61788870T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">61788870.0</data>
+      <data key="d14">61788870</data>
+      <data key="d15">61788870</data>
+      <data key="d16">-0.648418</data>
+      <data key="d17">0.60453</data>
+      <data key="d18">0.02235</data>
+      <data key="d12">0.25687</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61969253T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.61969253T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">61969253.0</data>
+      <data key="d14">61969253</data>
+      <data key="d21">rs140715717</data>
+      <data key="d15">61969253</data>
+      <data key="d16">0.452219</data>
+      <data key="d17">0.81411</data>
+      <data key="d18">0.68533</data>
+      <data key="d12">0.15269</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62162428T&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62162428T&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62162428.0</data>
+      <data key="d14">62162428</data>
+      <data key="d15">62162428</data>
+      <data key="d16">-0.281074</data>
+      <data key="d17">0.87669</data>
+      <data key="d18">0.58697</data>
+      <data key="d12">0.80642</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61937163C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61937163C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d12">0.29009</data>
+      <data key="d13">61937163.0</data>
+      <data key="d14">61937163</data>
+      <data key="d21">rs3783788</data>
+      <data key="d15">61937163</data>
+      <data key="d16">0.505145</data>
+      <data key="d17">0.20697</data>
+      <data key="d18">0.09052</data>
+      <data key="d19">10</data>
+      <data key="d20">MAX:3.24, </data>
+    </node>
+    <node id="chr14:g.62076793G&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62076793G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d12">0.53349</data>
+      <data key="d13">62076793.0</data>
+      <data key="d14">62076793</data>
+      <data key="d21">rs139493725</data>
+      <data key="d15">62076793</data>
+      <data key="d16">1.124997</data>
+      <data key="d17">0.98353</data>
+      <data key="d18">0.34702</data>
+      <data key="d19">10</data>
+      <data key="d20">PAX2:7.82, </data>
+    </node>
+    <node id="chr14:61927771-61930271">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:61927771-61930271</data>
+      <data key="d10">grey</data>
+      <data key="d13">-286785.0</data>
+      <data key="d26">CTCF,CTCF_(C-20),CTCF_(SC-5916),Egr-1,GATA-2,GTF2F1_(RAP-74),Rad21,SMC3_(ab9263),STAT3,USF2,YY1_(C-20),c-Fos,p300</data>
+      <data key="d17">0.50998</data>
+      <data key="d18">0.44492</data>
+      <data key="d12">0.51327</data>
+      <data key="d19">20</data>
+    </node>
+    <node id="chr14:g.61933357G&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61933357G&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61933357.0</data>
+      <data key="d14">61933357</data>
+      <data key="d21">rs34582366</data>
+      <data key="d15">61933357</data>
+      <data key="d16">0.042408</data>
+      <data key="d18">0.60864</data>
+      <data key="d17">0.33702</data>
+      <data key="d23">0.999608</data>
+      <data key="d12">0.9623</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62162261A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62162261A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62162261.0</data>
+      <data key="d14">62162261</data>
+      <data key="d21">rs187003109</data>
+      <data key="d15">62162261</data>
+      <data key="d16">0.272335</data>
+      <data key="d17">0.92353</data>
+      <data key="d18">0.64797</data>
+      <data key="d12">0.70511</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62229185A&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62229185A&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62229185.0</data>
+      <data key="d14">62229185</data>
+      <data key="d15">62229185</data>
+      <data key="d16">-0.239797</data>
+      <data key="d17">0.04893</data>
+      <data key="d18">0.60347</data>
+      <data key="d12">0.26563</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62076435T&gt;C">
+      <data key="d18">0.31751</data>
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62076435T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d12">0.45954</data>
+      <data key="d24">20081858</data>
+      <data key="d13">62076435.0</data>
+      <data key="d14">62076435</data>
+      <data key="d21">rs1001703</data>
+      <data key="d15">62076435</data>
+      <data key="d16">0.057309</data>
+      <data key="d25">Glucose_homeostasis_traits_(fasting_glucose,__fasting_insulin,__HOMA-B,__HOMA-IR),_,_</data>
+      <data key="d17">0.97146</data>
+      <data key="d23">0.98627</data>
+      <data key="d19">10</data>
+      <data key="d20">GATA3:8.16, </data>
+    </node>
+    <node id="chr14:61936318-61938004">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:61936318-61938004</data>
+      <data key="d10">grey</data>
+      <data key="d13">-278645.0</data>
+      <data key="d26">CEBPB,CTCF,JunD,Rad21,SMC3_(ab9263),STAT3,p300,p300_(N-15)</data>
+      <data key="d17">0.41319</data>
+      <data key="d18">0.32818</data>
+      <data key="d12">0.53</data>
+      <data key="d19">20</data>
+    </node>
+    <node id="chr14:g.62217767G&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62217767G&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d12">0.80074</data>
+      <data key="d13">62217767.0</data>
+      <data key="d14">62217767</data>
+      <data key="d15">62217767</data>
+      <data key="d16">-0.078406</data>
+      <data key="d17">0.10543</data>
+      <data key="d18">0.32801</data>
+      <data key="d19">10</data>
+      <data key="d20">RBFOX1:10.03, </data>
+    </node>
+    <node id="chr14:g.62145886C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62145886C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62145886.0</data>
+      <data key="d14">62145886</data>
+      <data key="d21">rs149853954</data>
+      <data key="d15">62145886</data>
+      <data key="d16">0.496658</data>
+      <data key="d17">0.57891</data>
+      <data key="d18">0.16285</data>
+      <data key="d12">0.88607</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61788832A&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.61788832A&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61788832.0</data>
+      <data key="d14">61788832</data>
+      <data key="d15">61788832</data>
+      <data key="d16">-0.174404</data>
+      <data key="d17">0.65936</data>
+      <data key="d18">0.19572</data>
+      <data key="d12">0.08577</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62035146G&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62035146G&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d12">0.35495</data>
+      <data key="d13">62035146.0</data>
+      <data key="d14">62035146</data>
+      <data key="d21">rs56260814</data>
+      <data key="d15">62035146</data>
+      <data key="d16">0.17445</data>
+      <data key="d17">0.37859</data>
+      <data key="d18">0.9561</data>
+      <data key="d19">10</data>
+      <data key="d20">TFCP2:4.85, </data>
+    </node>
+    <node id="chr14:g.62217767G&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62217767G&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d12">0.78063</data>
+      <data key="d13">62217767.0</data>
+      <data key="d14">62217767</data>
+      <data key="d15">62217767</data>
+      <data key="d16">0.026933</data>
+      <data key="d17">0.1239</data>
+      <data key="d18">0.26374</data>
+      <data key="d19">10</data>
+      <data key="d20">RBFOX1:8.83, </data>
+    </node>
+    <node id="chr14:61968831-61969730">
+      <data key="d17">0.67195</data>
+      <data key="d6">filled</data>
+      <data key="d9">chr14:61968831-61969730</data>
+      <data key="d22">25928</data>
+      <data key="d10">purple</data>
+      <data key="d18">0.65658</data>
+      <data key="d12">0.1357</data>
+      <data key="d13">61969280.5</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:62216268-62218668">
+      <data key="d6">filled</data>
+      <data key="d12">0.55215</data>
+      <data key="d9">HIF1A,HIF1A-AS2: chr14:62216268-62218668</data>
+      <data key="d10">blue</data>
+      <data key="d27">1</data>
+      <data key="d28">72.68771</data>
+      <data key="d26">BCL3,CCNT2,CEBPB,EBF,EBF1_(C-8),ELF1_(SC-631),Egr-1,FOXA1_(C-20),GATA-1,HA-E2F1,HEY1,HMGN3,IRF1,IRF4_(M-17),Max,NFKB,PAX5-C20,PU.1,Pol2,Pol2(phosphoS2),Pol2-4H8,TAF1,TBP,TCF4,WHIP,c-Myc,p300</data>
+      <data key="d17">0.37632</data>
+      <data key="d18">0.48481</data>
+      <data key="d29">True</data>
+      <data key="d19">50</data>
+    </node>
+    <node id="chr14:g.62161972T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62161972T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d12">0.67096</data>
+      <data key="d13">62161972.0</data>
+      <data key="d14">62161972</data>
+      <data key="d21">rs41362550</data>
+      <data key="d15">62161972</data>
+      <data key="d16">-0.013305</data>
+      <data key="d18">0.75916</data>
+      <data key="d17">0.8772</data>
+      <data key="d23">0.995224</data>
+      <data key="d19">10</data>
+      <data key="d20">BHLHB3:7.36, USF1:3.96, </data>
+    </node>
+    <node id="chr14:g.62145541C&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62145541C&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">62145541.0</data>
+      <data key="d14">62145541</data>
+      <data key="d21">rs111284414</data>
+      <data key="d15">62145541</data>
+      <data key="d16">0.135611</data>
+      <data key="d18">0.88245</data>
+      <data key="d17">0.80253</data>
+      <data key="d23">0.763002</data>
+      <data key="d12">0.46653</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62076732C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62076732C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62076732.0</data>
+      <data key="d14">62076732</data>
+      <data key="d21">rs115387918</data>
+      <data key="d15">62076732</data>
+      <data key="d16">0.51394</data>
+      <data key="d17">0.91276</data>
+      <data key="d18">0.18343</data>
+      <data key="d12">0.54568</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62228534C&gt;A">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62228534C&gt;A</data>
+      <data key="d10">orange</data>
+      <data key="d11">A</data>
+      <data key="d13">62228534.0</data>
+      <data key="d14">62228534</data>
+      <data key="d21">rs185756446</data>
+      <data key="d15">62228534</data>
+      <data key="d16">-0.310558</data>
+      <data key="d17">0.09516</data>
+      <data key="d18">0.68722</data>
+      <data key="d12">0.24951</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62304485C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62304485C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62304485.0</data>
+      <data key="d14">62304485</data>
+      <data key="d21">rs189222863</data>
+      <data key="d15">62304485</data>
+      <data key="d16">0.779723</data>
+      <data key="d17">0.68683</data>
+      <data key="d18">0.11189</data>
+      <data key="d12">0.7943</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62229190T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62229190T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62229190.0</data>
+      <data key="d14">62229190</data>
+      <data key="d15">62229190</data>
+      <data key="d16">-0.204034</data>
+      <data key="d17">0.08119</data>
+      <data key="d18">0.49848</data>
+      <data key="d12">0.1719</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62035827A&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">A</data>
+      <data key="d9">chr14:g.62035827A&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62035827.0</data>
+      <data key="d14">62035827</data>
+      <data key="d21">rs186760694</data>
+      <data key="d15">62035827</data>
+      <data key="d16">0.428706</data>
+      <data key="d17">0.27088</data>
+      <data key="d18">0.92219</data>
+      <data key="d12">0.37284</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62035525G&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62035525G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62035525.0</data>
+      <data key="d14">62035525</data>
+      <data key="d21">rs182615378</data>
+      <data key="d15">62035525</data>
+      <data key="d16">0.270195</data>
+      <data key="d17">0.48658</data>
+      <data key="d18">0.97973</data>
+      <data key="d12">0.43141</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62035783C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62035783C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">62035783.0</data>
+      <data key="d14">62035783</data>
+      <data key="d21">rs79408347</data>
+      <data key="d15">62035783</data>
+      <data key="d16">0.343508</data>
+      <data key="d17">0.3683</data>
+      <data key="d18">0.97133</data>
+      <data key="d12">0.46588</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:61787574-61789493">
+      <data key="d6">filled</data>
+      <data key="d12">0.4053</data>
+      <data key="d9">PRKCH,BC050301: chr14:61787574-61789493</data>
+      <data key="d10">blue</data>
+      <data key="d27">-426270</data>
+      <data key="d28">78.37254</data>
+      <data key="d26">CTCF,CTCF_(C-20),E2F6_(H-50),ELF1_(SC-631),Egr-1,FOXA1_(C-20),HA-E2F1,Max,Pol2,Rad21,STAT3,TCF12,TCF4,ZBTB7A_(SC-34508),ZEB1_(SC-25388),c-Myc,p300</data>
+      <data key="d17">0.58885</data>
+      <data key="d18">0.16792</data>
+      <data key="d29">True</data>
+      <data key="d19">25</data>
+    </node>
+    <node id="chr14:62145739-62146077">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62145739-62146077</data>
+      <data key="d10">purple</data>
+      <data key="d13">62145908.0</data>
+      <data key="d22">14603</data>
+      <data key="d17">0.63831</data>
+      <data key="d18">0.31133</data>
+      <data key="d12">0.83564</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:g.62217744C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62217744C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62217744.0</data>
+      <data key="d14">62217744</data>
+      <data key="d15">62217744</data>
+      <data key="d16">-0.015058</data>
+      <data key="d17">0.01652</data>
+      <data key="d18">0.54203</data>
+      <data key="d12">0.65048</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62162642G&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62162642G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d12">0.80541</data>
+      <data key="d13">62162642.0</data>
+      <data key="d14">62162642</data>
+      <data key="d21">rs182448149</data>
+      <data key="d15">62162642</data>
+      <data key="d16">-0.028011</data>
+      <data key="d17">0.79096</data>
+      <data key="d18">0.73913</data>
+      <data key="d19">10</data>
+      <data key="d20">PHOX2B:5.29, PHOX2A:4.88, CART1:3.38, </data>
+    </node>
+    <node id="chr14:g.62076643T&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">T</data>
+      <data key="d9">chr14:g.62076643T&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">62076643.0</data>
+      <data key="d14">62076643</data>
+      <data key="d21">rs147425769</data>
+      <data key="d15">62076643</data>
+      <data key="d16">1.363594</data>
+      <data key="d17">0.94664</data>
+      <data key="d18">0.34258</data>
+      <data key="d12">0.65362</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61969589C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61969589C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">61969589.0</data>
+      <data key="d14">61969589</data>
+      <data key="d21">rs186380871</data>
+      <data key="d15">61969589</data>
+      <data key="d16">0.437716</data>
+      <data key="d17">0.74927</data>
+      <data key="d18">0.72778</data>
+      <data key="d12">0.12369</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61969394C&gt;T">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61969394C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d13">61969394.0</data>
+      <data key="d14">61969394</data>
+      <data key="d21">rs138183445</data>
+      <data key="d15">61969394</data>
+      <data key="d16">0.621328</data>
+      <data key="d17">0.71514</data>
+      <data key="d18">0.5649</data>
+      <data key="d12">0.03621</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61788830G&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61788830G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">61788830.0</data>
+      <data key="d14">61788830</data>
+      <data key="d15">61788830</data>
+      <data key="d16">-0.729177</data>
+      <data key="d17">0.59935</data>
+      <data key="d18">0.14516</data>
+      <data key="d12">0.10032</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.62035688G&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.62035688G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d12">0.29802</data>
+      <data key="d13">62035688.0</data>
+      <data key="d14">62035688</data>
+      <data key="d21">rs143698643</data>
+      <data key="d15">62035688</data>
+      <data key="d16">2.023163</data>
+      <data key="d17">0.34954</data>
+      <data key="d18">0.91616</data>
+      <data key="d19">10</data>
+      <data key="d20">TFAP4:5.72, </data>
+    </node>
+    <node id="chr14:62196817-62198387">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:62196817-62198387</data>
+      <data key="d10">grey</data>
+      <data key="d13">-18204.0</data>
+      <data key="d26">CTCF,CTCF_(C-20),Rad21,SMC3_(ab9263)</data>
+      <data key="d17">0.53221</data>
+      <data key="d18">0.42081</data>
+      <data key="d12">0.5526</data>
+      <data key="d19">20</data>
+    </node>
+    <node id="chr14:g.62145370C&gt;G">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.62145370C&gt;G</data>
+      <data key="d10">orange</data>
+      <data key="d11">G</data>
+      <data key="d13">62145370.0</data>
+      <data key="d14">62145370</data>
+      <data key="d21">rs76680960</data>
+      <data key="d15">62145370</data>
+      <data key="d16">-0.107143</data>
+      <data key="d18">0.89502</data>
+      <data key="d17">0.75664</data>
+      <data key="d23">0.856028</data>
+      <data key="d12">0.58415</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:g.61933477C&gt;T">
+      <data key="d18">0.7695</data>
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">C</data>
+      <data key="d9">chr14:g.61933477C&gt;T</data>
+      <data key="d10">orange</data>
+      <data key="d11">T</data>
+      <data key="d24">20081858,20081858,20383146,</data>
+      <data key="d13">61933477.0</data>
+      <data key="d14">61933477</data>
+      <data key="d21">rs912616</data>
+      <data key="d15">61933477</data>
+      <data key="d16">0.293285</data>
+      <data key="d25">Glucose_homeostasis_traits_(fasting_glucose,_,_fasting_insulin,_,_HOMA-B,_,_HOMA-IR),_,_Glucose_homeostasis_traits_(fasting_glucose,_,_fasting_insulin,_,_HOMA-B,_,_HOMA-IR),_,_Chronic_kidney_disease_(CKD)_and_renal_traits,</data>
+      <data key="d17">0.39613</data>
+      <data key="d23">0.701662</data>
+      <data key="d12">0.88677</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:61932954-61933556">
+      <data key="d6">filled</data>
+      <data key="d9">chr14:61932954-61933556</data>
+      <data key="d10">purple</data>
+      <data key="d13">61933255.0</data>
+      <data key="d22">0</data>
+      <data key="d17">0.37951</data>
+      <data key="d18">0.60293</data>
+      <data key="d12">0.90739</data>
+      <data key="d19">15</data>
+    </node>
+    <node id="chr14:g.61788885G&gt;C">
+      <data key="d6">filled</data>
+      <data key="d7">chr14</data>
+      <data key="d8">G</data>
+      <data key="d9">chr14:g.61788885G&gt;C</data>
+      <data key="d10">orange</data>
+      <data key="d11">C</data>
+      <data key="d13">61788885.0</data>
+      <data key="d14">61788885</data>
+      <data key="d15">61788885</data>
+      <data key="d16">-0.539099</data>
+      <data key="d17">0.83267</data>
+      <data key="d18">0.17719</data>
+      <data key="d12">0.23371</data>
+      <data key="d19">10</data>
+    </node>
+    <node id="chr14:61936891-61937489">
+      <data key="d17">0.20123</data>
+      <data key="d6">filled</data>
+      <data key="d9">chr14:61936891-61937489</data>
+      <data key="d22">0</data>
+      <data key="d10">purple</data>
+      <data key="d18">0.11515</data>
+      <data key="d12">0.42625</data>
+      <data key="d13">61937190.0</data>
+      <data key="d19">15</data>
+    </node>
+    <edge source="chr14:g.62217753A&gt;C" target="chr14:62217602-62218307">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61788876A&gt;T" target="chr14:61787402-61788945">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937430C&gt;G" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62218267A&gt;G" target="chr14:62217602-62218307">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937372A&gt;G" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61788876A&gt;G" target="chr14:61787402-61788945">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62304376-62304625" target="chr14:g.62304544C&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62304376-62304625" target="chr14:62303629-62305299">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62304376-62304625" target="chr14:g.62304486G&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62304376-62304625" target="chr14:g.62304485C&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62035549C&gt;A" target="chr14:62035063-62036017">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937133C&gt;T" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62162426T&gt;C" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62146057A&gt;G" target="chr14:62145739-62146077">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62162427T&gt;G" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62229191C&gt;T" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937025C&gt;T" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62162427T&gt;C" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62162427T&gt;A" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62146005C&gt;A" target="chr14:62145739-62146077">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61933299A&gt;G" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62229191C&gt;G" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62034736C&gt;T" target="chr14:62034573-62034970">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61969063G&gt;A" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62217781A&gt;C" target="chr14:62217602-62218307">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62303629-62305299" target="chr14:62228463-62229700">
+      <data key="d31">1</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62303629-62305299" target="chr14:61927771-61930271">
+      <data key="d31">1</data>
+      <data key="d32">18</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62303629-62305299" target="chr14:61936318-61938004">
+      <data key="d31">1</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62303629-62305299" target="chr14:61922756-61924256">
+      <data key="d31">1</data>
+      <data key="d32">6</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62303629-62305299" target="chr14:61941509-61942904">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62303629-62305299" target="chr14:61932673-61933991">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:g.62217756A&gt;C" target="chr14:62217602-62218307">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62229187T&gt;C" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62217804G&gt;C" target="chr14:62217602-62218307">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937485A&gt;G" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62217781A&gt;T" target="chr14:62217602-62218307">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62229435A&gt;C" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61932673-61933991" target="chr14:61922756-61924256">
+      <data key="d31">1</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:61932673-61933991" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61932673-61933991" target="chr14:61936318-61938004">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:g.61933545A&gt;T" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62076085-62076887" target="chr14:g.62076483G&gt;A">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62076085-62076887" target="chr14:g.62076542G&gt;A">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62076085-62076887" target="chr14:g.62076849C&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62076085-62076887" target="chr14:g.62076435T&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62076085-62076887" target="chr14:g.62076793G&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62076085-62076887" target="chr14:62073913-62077057">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62076085-62076887" target="chr14:g.62076643T&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62076085-62076887" target="chr14:g.62076754C&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62076085-62076887" target="chr14:g.62076208A&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62076085-62076887" target="chr14:g.62076732C&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62217602-62218307" target="chr14:g.62218261T&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62217602-62218307" target="chr14:g.62217767G&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62217602-62218307" target="chr14:g.62217767G&gt;A">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62217602-62218307" target="chr14:g.62217771G&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62217602-62218307" target="chr14:g.62217788T&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62217602-62218307" target="chr14:g.62217788T&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62217602-62218307" target="chr14:62216268-62218668">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62217602-62218307" target="chr14:g.62218049C&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62217602-62218307" target="chr14:g.62217744C&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62035381C&gt;G" target="chr14:62035063-62036017">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61969549G&gt;C" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62073913-62077057" target="chr14:62160679-62164134">
+      <data key="d31">1</data>
+      <data key="d32">6</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:g.62229434G&gt;C" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62145445C&gt;T" target="chr14:62145238-62145660">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61788876A&gt;C" target="chr14:61787402-61788945">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62003953-62005185" target="chr14:62034250-62036112">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:g.62145404C&gt;T" target="chr14:62145238-62145660">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62034250-62036112" target="chr14:62035063-62036017">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62034250-62036112" target="chr14:62160679-62164134">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62034250-62036112" target="chr14:61927771-61930271">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62034250-62036112" target="chr14:62034573-62034970">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62035400G&gt;T" target="chr14:62035063-62036017">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61933516G&gt;A" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62161745T&gt;C" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62035063-62036017" target="chr14:g.62035827A&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62035063-62036017" target="chr14:g.62035525G&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62035063-62036017" target="chr14:g.62035783C&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62035063-62036017" target="chr14:g.62035218G&gt;A">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62035063-62036017" target="chr14:g.62035146G&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62035063-62036017" target="chr14:g.62035688G&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62035063-62036017" target="chr14:g.62035764T&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937119C&gt;T" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62278602-62279992" target="chr14:61922756-61924256">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:g.62162589C&gt;A" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61922756-61924256" target="chr14:61787574-61789493">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:61922756-61924256" target="chr14:61927771-61930271">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:g.61788885G&gt;A" target="chr14:61787402-61788945">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62034573-62034970" target="chr14:g.62034818C&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62162426T&gt;G" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62162589C&gt;T" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61788885G&gt;T" target="chr14:61787402-61788945">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61969639G&gt;A" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61969569C&gt;T" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61936979G&gt;A" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61933022C&gt;T" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62030768-62031762" target="chr14:62160679-62164134">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62160679-62164134" target="chr14:61927771-61930271">
+      <data key="d31">1</data>
+      <data key="d32">5</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62160679-62164134" target="chr14:62145238-62145660">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62160679-62164134" target="chr14:62196817-62198387">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62160679-62164134" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62160679-62164134" target="chr14:61941509-61942904">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:62160679-62164134" target="chr14:62145739-62146077">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62162493C&gt;G" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62229200C&gt;A" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61787402-61788945" target="chr14:g.61788830G&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61787402-61788945" target="chr14:g.61788870T&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61787402-61788945" target="chr14:g.61788885G&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61787402-61788945" target="chr14:61787574-61789493">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61787402-61788945" target="chr14:g.61788870T&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61787402-61788945" target="chr14:g.61788856A&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61787402-61788945" target="chr14:g.61788828T&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61787402-61788945" target="chr14:g.61788833C&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61787402-61788945" target="chr14:g.61788832A&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61787402-61788945" target="chr14:g.61788846T&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61969021C&gt;T" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62145656C&gt;T" target="chr14:62145238-62145660">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61933499C&gt;T" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937384A&gt;G" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61941509-61942904" target="chr14:61927771-61930271">
+      <data key="d31">1</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:61941509-61942904" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61941509-61942904" target="chr14:62216268-62218668">
+      <data key="d31">1</data>
+      <data key="d32">3</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:g.61969279A&gt;C" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61933271A&gt;G" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937081G&gt;A" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61969437C&gt;T" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62221451-62222721" target="chr14:62228463-62229700">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:g.61933068C&gt;T" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937224A&gt;G" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62229188C&gt;T" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62229203A&gt;G" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61933294C&gt;T" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62229188C&gt;A" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62146004C&gt;A" target="chr14:62145739-62146077">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62162428T&gt;A" target="chr14:62161531-62163000">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.62229188C&gt;G" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62228463-62229700" target="chr14:62228518-62229621">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62145238-62145660" target="chr14:g.62145370C&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62145238-62145660" target="chr14:g.62145541C&gt;A">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62228518-62229621" target="chr14:g.62229185A&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62228518-62229621" target="chr14:g.62229190T&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62228518-62229621" target="chr14:g.62228534C&gt;A">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62228518-62229621" target="chr14:g.62229280A&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61936906A&gt;T" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61933495C&gt;A" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937164T&gt;C" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62161531-62163000" target="chr14:g.62162428T&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62161531-62163000" target="chr14:g.62162642G&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62161531-62163000" target="chr14:g.62161972T&gt;C">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:62161531-62163000" target="chr14:g.62162261A&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937292T&gt;C" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61933409C&gt;G" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61969579G&gt;C" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61932959G&gt;A" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61933225G&gt;A" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61969566C&gt;T" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61969253T&gt;C" target="chr14:61968831-61969730">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61937163C&gt;T" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61927771-61930271" target="chr14:61936318-61938004">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:61927771-61930271" target="chr14:62196817-62198387">
+      <data key="d31">1</data>
+      <data key="d32">7</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:61927771-61930271" target="chr14:62216268-62218668">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:g.61933357G&gt;T" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61936318-61938004" target="chr14:61936891-61937489">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61936318-61938004" target="chr14:62196817-62198387">
+      <data key="d31">1</data>
+      <data key="d32">2</data>
+      <data key="d33">1</data>
+    </edge>
+    <edge source="chr14:g.62145886C&gt;T" target="chr14:62145739-62146077">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61968831-61969730" target="chr14:g.61969394C&gt;T">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:61968831-61969730" target="chr14:g.61969589C&gt;G">
+      <data key="d30" />
+    </edge>
+    <edge source="chr14:g.61933477C&gt;T" target="chr14:61932954-61933556">
+      <data key="d30" />
+    </edge>
+  </graph>
+</graphml>
