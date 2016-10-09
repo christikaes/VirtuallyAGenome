@@ -58,6 +58,7 @@ $(function() {
 
       $("#genome-viewer").append(nodes);
       $("#genome-viewer").append(links);
+
     });
 
 
