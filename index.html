@@ -8,6 +8,7 @@
     <!-- Dependencies -->
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
     <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/bryik/aframe-bmfont-text-component/master/dist/aframe-bmfont-text-component.min.js"></script>
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" />
@@ -15,16 +16,27 @@
 
     <!-- Code -->
     <script src="./js/line.component.js"></script>
+    <script src="./js/menugenerator.js"></script>
     <script src="./js/generator.js"></script>
     <link rel="stylesheet" href="./css/controlPane.css" />
 
   </head>
   <body>
-    <a-scene>
-      <a-entity id="genome-viewer" position="0 3 -2"></a-entity>
-      <a-sky color="#ECECEC"></a-sky>
+    <a-scene id="scene">
+      <a-sky src="./img/background2.jpg"></a-sky>
+
+      <!-- Main Menu -->
+      <!-- note: bug bm-text can't be inside of an entity -->
+
+
+      <!-- 3d Gnome viewer -->
+      <a-entity id="genome-viewer" position="5 2 0"></a-entity>
+      <!-- 3d Gnome viewer controlls -->
+
+      <!-- 2d Genome viewer -->
+
     </a-scene>
-    <div class="control-pane">
+    <!-- <div class="control-pane">
       <nav>
         <div class="nav-wrapper">
            <a href="#" class="brand-logo center">Virtually A Genome</a>
@@ -52,6 +64,6 @@
           SNP/CNV
         </div>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>

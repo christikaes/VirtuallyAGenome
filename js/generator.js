@@ -1,9 +1,9 @@
 $(function() {
     console.log( "Genome Editor Ready!" );
 
-
     // Get the genome data
-    $.getJSON( "./data/genome1.json", function( data ) {
+    var dataUrl = "./data/primed_n2_ZPF_CCDC140,PAX3,DD413687_graph.json";
+    $.getJSON( dataUrl, function( data ) {
 
       // scale data
       var nodesData = data.nodes;
@@ -30,9 +30,7 @@ $(function() {
             nodesData[i].color = "#9E9E9E";
             break;
           default:
-
         }
-
       }
 
       // generate and add the nodes for the a-frame
