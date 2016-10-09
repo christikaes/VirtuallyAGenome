@@ -1,4 +1,6 @@
 $(function (){
+    var prevNodeId;
+    var prevNodeColor;
 
     var showGene = function(gene) {
       $(".3dgene").attr('visible', 'false');
@@ -11,6 +13,21 @@ $(function (){
     var selectMenu = function(id) {
       $(".menu").attr('color', '#3F51B5');
       $("#" + id).attr('color', '#2196F3');
+
+      // Reset the color of the previous node
+      $("#" + prevNodeId).attr('color', prevNodeColor);
+    }
+
+    var selectNode = function(id) {
+      // Reset the color of the previous node
+      $("#" + prevNodeId).attr('color', prevNodeColor);
+
+      // Store this for later
+      prevNodeId = id;
+      prevNodeColor = $("#" + id).attr('color');
+
+      // Show selected state
+      $("#" + id).attr('color', '#E91E63');
     }
 
     // When the user clicks on a menu, show the correct gene
@@ -23,8 +40,9 @@ $(function (){
         showGene("DUSP6");
         selectMenu("DUSP6-menu");
 
-        for (var i = 0; i < geneList.length; i++) {
-          $("#" + geneList[i] + "-menu").on('click', function (evt) {
+        // for (var i = 0; i < geneList.length; i++) {
+          $("#scene").on('click', function (evt) {
+            console.log('click')
             var id = evt.target.id;
             var gene = id.split("-")[0];
             var component = id.split("-")[1];
@@ -34,12 +52,15 @@ $(function (){
                 showGene(gene);
                 selectMenu(id);
                 break;
+              case "node":
+                selectNode(id);
+                break;
               default:
                 console.log("error")
             }
 
           });
-        }
+        // }
 
       }
     });
