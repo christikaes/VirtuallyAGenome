@@ -8,6 +8,16 @@
 			"Name": "VaRestPlugin",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f"
+		},
+		{
+			"Name": "GestureTrackerVR",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/378f739f054340899db2569090222fd3"
+		},
+		{
+			"Name": "KantanCharts",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/89bd18db011b4bd19606db2e31020f13"
 		}
 	],
 	"TargetPlatforms": [
