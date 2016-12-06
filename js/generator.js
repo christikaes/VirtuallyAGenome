@@ -7,7 +7,7 @@ var generate3dGene = function (gene){
     // scale data
     var nodesData = data.nodes;
     for (var i = 0; i < nodesData.length; i++) {
-      nodesData[i].size *= 1/50;
+      nodesData[i].size *= 1/150;
       nodesData[i].x -= 0.5;
       nodesData[i].y -= 0.5;
       nodesData[i].z -= 0.5;
@@ -41,7 +41,9 @@ var generate3dGene = function (gene){
       var y = nodesData[i].y;
       var z = nodesData[i].z;
 
-      nodes += "<a-sphere id='" + gene + "-" + i + "' position='" + x + " " + y + " " + z + "' radius='" + radius + "' color='" + color + "'></a-sphere>"
+      // nodes += "<a-sphere id='" + gene + "-node-" + i + "' position='" + x + " " + y + " " + z + "' radius='" + radius + "' color='" + color + "'></a-sphere>"
+      nodes += "<a-sphere id='" + gene + "-node-" + i + "' position='" + x + " " + y + " " + z + "' radius='" + radius + "' color='" + color + "' data-name='"
+        + nodesData[i].name + "' data-mid='" + nodesData[i].mid + "' data-fpkm='" + nodesData[i].fpkm + "' data-tfbs='" + nodesData[i].tfbs + "' data-id='" + nodesData[i].id + "'></a-sphere>"
     }
 
     // generate and add the links for the a-frame
@@ -52,12 +54,20 @@ var generate3dGene = function (gene){
       var target = nodesData[linksData[i].target];
       var height = Math.sqrt(Math.pow((source.x-target.x), 2) + Math.pow((source.y-target.y), 2) + Math.pow((source.z-target.z), 2));
 
-      links += "<a-entity line='color: black; path:" + source.x + " " + source.y + " " + source.z + ", " + target.x + " " + target.y + " " + target.z + "'></a-entity>"
+      links += "<a-entity line='color: white; path:" + source.x + " " + source.y + " " + source.z + ", " + target.x + " " + target.y + " " + target.z + "'></a-entity>"
     }
 
-    var geneView = "<a-entity id='" + gene + "' class='3dgene hidden'>" + nodes + links + "</a-entity>"
+    var geneView = "<a-entity id='" + gene + "' class='3dgene'>" + nodes + links + "</a-entity>"
     $("#3d-genome-viewer").append(geneView);
   });
+}
+
+var generate2dGene = function (gene){
+  // Get the gene data
+  var imgUrl = "./img/genes/" + gene + ".jpg";
+  // var imgUrl = "./img/nucleus.jpg";
+  var geneView = "<a-image id='" + gene + "-2d' class='2dgene' src='" + imgUrl + "'width='5' height='3'></a-image>"
+  $("#2d-genome-viewer").append(geneView);
 }
 
 $(function() {
@@ -67,9 +77,6 @@ $(function() {
     for (var i = 0; i < geneList.length; i++) {
       console.log(geneList[i])
       generate3dGene(geneList[i]);
+      generate2dGene(geneList[i]);
     }
-
-    // Show only of them
-    $(".3dgene").attr('visible', 'false');
-    $("#DUSP6").attr('visible', 'true');
 });
