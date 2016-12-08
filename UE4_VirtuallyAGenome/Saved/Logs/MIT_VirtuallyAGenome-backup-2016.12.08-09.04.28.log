@@ -1,0 +1,995 @@
+﻿Log file open, 12/08/16 08:06:30
+LogInit:Display: Running engine for game: MIT_VirtuallyAGenome
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(517476426) SRandInit(517476426).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.067029
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin VaRestPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Marketplace/VaRestPlugin/VaRestPlugin.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin VaRestPlugin, From C:/Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Plugins/VaRest-1.1-r16/VaRestPlugin.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files (x86)\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.10.1(build = 315393) feature version = 0. Client runs version (prod = 1).1.10.1(build = 315393) feature version = 0
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.08-13.06.31:510][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2016.12.08-13.06.31:531][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.08-13.06.31:531][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.08-13.06.31:551][  0]LogInit: Computer: FALCON
+[2016.12.08-13.06.31:551][  0]LogInit: User: spers
+[2016.12.08-13.06.31:551][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.08-13.06.31:551][  0]LogInit: High frequency timer resolution =3.914067 MHz
+[2016.12.08-13.06.31:551][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2016.12.08-13.06.31:551][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.08-13.06.31:551][  0]LogMemory: Process Physical Memory: 268.20 MB used, 268.20 MB peak
+[2016.12.08-13.06.31:551][  0]LogMemory: Process Virtual Memory: 267.11 MB used, 267.11 MB peak
+[2016.12.08-13.06.31:551][  0]LogMemory: Physical Memory: 7619.30 MB used, 32691.95 MB total
+[2016.12.08-13.06.31:551][  0]LogMemory: Virtual Memory: 748.52 MB used, 134217728.00 MB total
+[2016.12.08-13.06.31:752][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.08-13.06.33:433][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.08-13.06.33:459][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX TITAN X' (Feature Level 11_0)
+[2016.12.08-13.06.33:459][  0]LogD3D11RHI:       12243/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.12.08-13.06.33:481][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX TITAN X' (Feature Level 11_0)
+[2016.12.08-13.06.33:481][  0]LogD3D11RHI:       12243/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.12.08-13.06.33:482][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.08-13.06.33:482][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.08-13.06.33:482][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.08-13.06.33:486][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.08-13.06.33:486][  0]LogD3D11RHI:     GPU DeviceId: 0x17c2 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.08-13.06.33:486][  0]LogWindows: EnumDisplayDevices:
+[2016.12.08-13.06.33:487][  0]LogWindows:    0. 'NVIDIA GeForce GTX TITAN X' (P:1 D:1)
+[2016.12.08-13.06.33:487][  0]LogWindows:    1. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2016.12.08-13.06.33:487][  0]LogWindows:    2. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2016.12.08-13.06.33:487][  0]LogWindows:    3. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2016.12.08-13.06.33:487][  0]LogWindows:    4. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2016.12.08-13.06.33:487][  0]LogWindows:    5. 'NVIDIA GeForce GTX TITAN X' (P:0 D:1)
+[2016.12.08-13.06.33:487][  0]LogWindows:    6. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2016.12.08-13.06.33:487][  0]LogWindows:    7. 'NVIDIA GeForce GTX TITAN X' (P:0 D:0)
+[2016.12.08-13.06.33:487][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2016.12.08-13.06.33:487][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX TITAN X
+[2016.12.08-13.06.33:487][  0]LogD3D11RHI:   Driver Version: 372.70 (internal:21.21.13.7270, unified:372.70)
+[2016.12.08-13.06.33:487][  0]LogD3D11RHI:      Driver Date: 8-25-2016
+[2016.12.08-13.06.33:487][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.08-13.06.33:499][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.08-13.06.33:517][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.12.08-13.06.33:517][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Intermediate/Shaders/WorkingDirectory/15520/).
+[2016.12.08-13.06.33:517][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/spers/AppData/Local/Temp/UnrealShaderWorkingDir/8BE559FF44A28019BEC8E39EBA6DD0BF/'.
+[2016.12.08-13.06.33:517][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.08-13.06.35:043][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.08-13.06.35:050][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.08-13.06.35:059][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.08-13.06.35:068][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.08-13.06.35:075][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.08-13.06.35:084][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.08-13.06.35:092][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.08-13.06.35:097][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.08-13.06.35:103][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.08-13.06.35:108][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.08-13.06.35:113][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.08-13.06.35:123][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.08-13.06.35:123][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.08-13.06.35:123][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.08-13.06.35:161][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.08-13.06.35:168][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.08-13.06.35:176][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.08-13.06.35:183][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.08-13.06.35:189][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.08-13.06.35:198][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.08-13.06.35:198][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.08-13.06.35:436][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.08-13.06.35:783][  0]LogDerivedDataCache: Loaded boot cache 0.35s 65MB C:/Users/spers/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.08-13.06.35:783][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/spers/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.12.08-13.06.35:783][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.08-13.06.35:783][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.08-13.06.35:784][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.08-13.06.35:784][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.08-13.06.35:801][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.08-13.06.35:813][  0]LogDerivedDataCache: Using Local data cache path C:/Users/spers/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.08-13.06.37:591][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.08-13.06.37:597][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.08-13.06.37:661][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.08-13.06.37:661][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.08-13.06.37:661][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.08-13.06.37:794][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.08-13.06.38:324][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: mit_virtuallyagenome, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 4227454381
+[2016.12.08-13.06.38:370][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2016.12.08-13.06.38:400][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.028114 seconds
+[2016.12.08-13.06.38:403][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.12.08-13.06.38:403][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2016.12.08-13.06.38:403][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.08-13.06.38:408][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.08-13.06.38:762][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.08-13.06.38:762][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.08-13.06.40:200][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.08-13.06.40:220][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.08-13.06.40:538][  0]SourceControl: Info Source control is disabled
+[2016.12.08-13.06.40:618][  0]SourceControl: Info Source control is disabled
+[2016.12.08-13.06.40:630][  0]SourceControl: Info Source control is disabled
+[2016.12.08-13.06.40:638][  0]SourceControl: Info Source control is disabled
+[2016.12.08-13.06.40:995][  0]LogEngine: Initializing Engine...
+[2016.12.08-13.06.43:895][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-453BA62F
+[2016.12.08-13.06.44:189][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.08-13.06.44:214][  0]LogInit: XAudio2 using 'Speakers (2- Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.08-13.06.44:227][  0]LogInit: FAudioDevice initialized.
+[2016.12.08-13.06.44:255][  0]LogDerivedDataCache: Saved boot cache 0.03s 65MB C:/Users/spers/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.08-13.06.44:262][  0]LogInit: Texture streaming: Enabled
+[2016.12.08-13.06.44:293][  0]LogInit: Transaction tracking system initialized
+[2016.12.08-13.06.44:328][  0]BlueprintLog: New page: Editor Load
+[2016.12.08-13.06.44:432][  0]LocalizationService: Info Localization service is disabled
+[2016.12.08-13.06.44:801][  0]LogConsoleResponse:Display: 
+[2016.12.08-13.06.45:200][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.08-13.06.45:200][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.08-13.06.45:421][  0]LogFileCache: Scanning file cache for directory 'C:/Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/' took 0.02s
+[2016.12.08-13.06.45:421][  0]SourceControl: Info Source control is disabled
+[2016.12.08-13.06.45:422][  0]Cmd: MAP LOAD FILE="../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/MIT/GenomeMk3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.08-13.06.45:425][  0]LightingResults: New page: Lighting Build
+[2016.12.08-13.06.45:428][  0]MapCheck: New page: Map Check
+[2016.12.08-13.06.45:428][  0]LightingResults: New page: Lighting Build
+[2016.12.08-13.06.46:806][  0]LogAIModule: Creating AISystem for world GenomeMk3
+[2016.12.08-13.06.46:928][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.08-13.06.46:929][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.08-13.06.46:979][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.224ms to complete.
+[2016.12.08-13.06.46:979][  0]LogFileHelpers: Loading map 'GenomeMk3' took 1.557
+[2016.12.08-13.06.47:138][  0]LogCollectionManager: Loaded 0 collections in 0.001917 seconds
+[2016.12.08-13.06.47:190][  0]LogFileCache: Scanning file cache for directory 'C:/Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Saved/Collections/' took 0.01s
+[2016.12.08-13.06.47:190][  0]LogFileCache: Scanning file cache for directory 'C:/Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/Developers/spers/Collections/' took 0.01s
+[2016.12.08-13.06.47:190][  0]LogFileCache: Scanning file cache for directory 'C:/Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/Collections/' took 0.01s
+[2016.12.08-13.06.47:190][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2016.12.08-13.06.47:198][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2146 classes and 420 folders.
+[2016.12.08-13.06.47:201][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.08-13.06.47:201][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.08-13.06.47:201][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.12.08-13.06.47:205][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.12.08-13.06.47:462][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.12.08-13.06.47:467][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.12.08-13.06.47:508][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.08-13.06.47:513][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.08-13.06.47:540][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.12.08-13.06.47:540][  0]LogLoad: (Engine Initialization) Total time: 19.82 seconds
+[2016.12.08-13.06.47:540][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.44 seconds
+[2016.12.08-13.06.47:540][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.08-13.06.47:540][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.08-13.06.47:549][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.08-13.06.47:549][  0]LogOcInput: OculusInput pre-init called
+[2016.12.08-13.06.47:558][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.1
+[2016.12.08-13.06.47:590][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.08-13.06.47:790][  0]LogRenderer: Reallocating scene render targets to support 1148x568 (Frame:2).
+[2016.12.08-13.06.47:814][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/' took 0.24s
+[2016.12.08-13.06.47:821][  1]LogAssetRegistry: Asset discovery search completed in 9.4732 seconds
+[2016.12.08-13.06.47:821][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.08-13.06.47:821][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
+[2016.12.08-13.14.54:078][ 90]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2016.12.08-13.27.47:065][577]BlueprintLog: New page: Compile GlobalMoleculeTarget
+[2016.12.08-13.27.47:784][606]LogSavePackage: Save=62.78ms
+[2016.12.08-13.27.47:784][606]LogSavePackage: Moving '../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Saved/GlobalMoleculeTarget716F90A343C74B79A295E585F536BA1E.tmp' to '../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/MIT/Blueprints/GlobalMoleculeTarget.uasset'
+[2016.12.08-13.27.47:788][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/MIT/Blueprints/GlobalMoleculeTarget.uasset
+[2016.12.08-13.28.24:775][291]LogSavePackage: Save=17.45ms
+[2016.12.08-13.28.24:775][291]LogSavePackage: Moving '../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Saved/GenomeMk3_Auto149EAEA9943865EC6C5150881D174E71B.tmp' to '../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Saved/Autosaves/Game/MIT/GenomeMk3_Auto1.umap'
+[2016.12.08-13.28.24:778][291]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Saved/Autosaves/Game/MIT/GenomeMk3_Auto1.umap
+[2016.12.08-13.28.24:779][291]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MIT/GenomeMk3' took 0.059
+[2016.12.08-13.28.24:779][291]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.059
+[2016.12.08-13.29.18:576][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.08-13.29.18:577][221]PIE: New page: SIE session: GenomeMk3 (Dec 8, 2016, 3:29:18 AM)
+[2016.12.08-13.29.18:577][221]LogPlayLevel: Creating play world package: /Game/MIT/UEDPIE_0_GenomeMk3
+[2016.12.08-13.29.18:580][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002466s)
+[2016.12.08-13.29.18:580][221]LogAIModule: Creating AISystem for world GenomeMk3
+[2016.12.08-13.29.18:581][221]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2016.12.08-13.29.18:581][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MIT/GenomeMk3.GenomeMk3 to /Game/MIT/UEDPIE_0_GenomeMk3.GenomeMk3 (0.003754s)
+[2016.12.08-13.29.18:604][221]LogInit: XAudio2 using 'Speakers (2- Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.08-13.29.18:611][221]LogInit: FAudioDevice initialized.
+[2016.12.08-13.29.18:658][221]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.08-13.29.18:658][221]LogWorld: Game class is 'GameMode'
+[2016.12.08-13.29.18:661][221]LogWorld: Bringing World /Game/MIT/UEDPIE_0_GenomeMk3.GenomeMk3 up for play (max tick rate 0) at 2016.12.08-08.29.18
+[2016.12.08-13.29.18:662][221]LogWorld: Bringing up level for play took: 0.001471
+[2016.12.08-13.29.18:664][221]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.12.08-13.29.18:669][221]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2016.12.08-13.29.18:669][221]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.08-13.29.18:674][221]LogVaRest: Request (urlencoded): GET https://raw.githubusercontent.com/christinakayastha/VirtuallyAGenome/master/data/json_by_cell_type/primed/primed_bivalent_global_graph_annotated.json 
+[2016.12.08-13.29.18:674][221]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.08-13.29.18:674][221]PIE: Info Play in editor start time for /Game/MIT/UEDPIE_0_GenomeMk3 -0.588
+[2016.12.08-13.29.18:983][240]LogVaRest: Response (404): 404: Not Found
+
+[2016.12.08-13.29.18:983][240]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Directed Graph:
+[2016.12.08-13.29.18:983][240]LogVaRest:Warning: No field with name directed of type Boolean
+[2016.12.08-13.29.18:983][240]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] false
+[2016.12.08-13.29.18:983][240]LogVaRest:Warning: No field with name nodes of type Array
+[2016.12.08-13.29.18:983][240]LogJson:Warning: Field nodes was not found.
+[2016.12.08-13.29.18:983][240]LogJson:Error: Json Value of type 'Null' used as a 'Array'.
+[2016.12.08-13.32.24:438][803]LogEditorViewport: Clicking Background
+[2016.12.08-13.32.25:658][869]LogSavePackage: Save=18.58ms
+[2016.12.08-13.32.25:658][869]LogSavePackage: Moving '../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Saved/GenomeMk318F262FC4EFFDC474D8192ABC0AD6492.tmp' to '../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/MIT/GenomeMk3.umap'
+[2016.12.08-13.32.25:662][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/MIT/GenomeMk3.umap
+[2016.12.08-13.32.27:303][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.08-13.32.27:303][968]PIE: New page: SIE session: GenomeMk3 (Dec 8, 2016, 3:32:27 AM)
+[2016.12.08-13.32.27:303][968]LogPlayLevel: Creating play world package: /Game/MIT/UEDPIE_0_GenomeMk3
+[2016.12.08-13.32.27:305][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001967s)
+[2016.12.08-13.32.27:306][968]LogAIModule: Creating AISystem for world GenomeMk3
+[2016.12.08-13.32.27:306][968]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2016.12.08-13.32.27:306][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MIT/GenomeMk3.GenomeMk3 to /Game/MIT/UEDPIE_0_GenomeMk3.GenomeMk3 (0.003010s)
+[2016.12.08-13.32.27:331][968]LogInit: XAudio2 using 'Speakers (2- Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.08-13.32.27:339][968]LogInit: FAudioDevice initialized.
+[2016.12.08-13.32.27:369][968]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.08-13.32.27:369][968]LogWorld: Game class is 'GameMode'
+[2016.12.08-13.32.27:373][968]LogWorld: Bringing World /Game/MIT/UEDPIE_0_GenomeMk3.GenomeMk3 up for play (max tick rate 0) at 2016.12.08-08.32.27
+[2016.12.08-13.32.27:374][968]LogWorld: Bringing up level for play took: 0.004462
+[2016.12.08-13.32.27:375][968]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.12.08-13.32.27:376][968]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.08-13.32.27:380][968]LogVaRest: Request (urlencoded): GET https://raw.githubusercontent.com/christinakayastha/VirtuallyAGenome/master/data/primed/rs11206510_GWAS_marker/rs11206510_GWAS_marker_global_graph_annotated.json 
+[2016.12.08-13.32.27:380][968]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.08-13.32.27:380][968]PIE: Info Play in editor start time for /Game/MIT/UEDPIE_0_GenomeMk3 0.118
+[2016.12.08-13.32.27:441][971]LogVaRest: Response (200): {"directed": false, "graph": {"tf_dimer_perc_top100": "100.0", "tissue_type": "Brain_Cerebellum", "genome_version": "GRCh37.p13", "tf_dimer_perc_top100_encode": "69.0,68.0,60.0,46.0,43.0,40.0,25.0,22.0,22.0,21.0,21.0,20.0,20.0,20.0,18.0,18.0,17.0,17.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,9.0,8.0,8.0,8.0,7.0,7.0,7.0,7.0,6.0,6.0,6.0,6.0,5.0,4.0,4.0,4.0,3.0,3.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0", "tf_dimer_names_top100_encode": "CTCF,Rad21,CTCF_(SC-5916),CTCF_(C-20),SUZ12,SMC3_(ab9263),SIX5,NFKB,GATA-2,Pol2-4H8,GATA-1,Pol2,BATF,CCNT2,ELF1_(SC-631),TBP,YY1_(C-20),SP1,TAF1,POU2F2,E2F4,ZNF263,E2F1,GABP,Oct-2,CHD2_(N-1250),PAX5-N19,TCF4,HEY1,PU.1,E2F6,E2F6_(H-50),c-Myc,USF-1,BCL11A,CEBPB,PAX5-C20,Mxi1_(bHLH),ETS1,AP-2gamma,USF1_(SC-8983),EBF1_(C-8),Znf143_(16618-1-AP),STAT1,STAT3,HA-E2F1,Pol2(b),eGFP-JunD,TCF12,YY1,NRSF,Sin3Ak-20,p300,HMGN3,Egr-1,Max,FOXA1_(C-20),RFX5_(N-494),Pbx3,ELK4,FOXA1_(SC-101058),FOXA2_(SC-6554),IRF1,CTCFL_(SC-98982),GATA2_(CG2-96),JunD,ZBTB7A_(SC-34508),AP-2alpha,KAP1,RXRA,GTF2F1_(RAP-74),ERalpha_a,TAL1_(SC-12984),EBF,ZEB1_(SC-25388),CtBP2,BCLAF1_(M33-P5B11),MafF_(M8194),USF2,FOSL2,Pol2(phosphoS2),HDAC2_(SC-6296),GATA3_(SC-268),Ini1,c-Fos,TFIIIC-110,MafK_(SC-477),GR,SETDB1,eGFP-HDAC8,MafK_(ab50322),NF-E2_(H-230),BHLHE40,HSF1,MEF2C_(SC-13268),PRDM1_(Val90),THAP1_(SC-98174),NANOG_(SC-33759),SRF,NF-YB", "species": "Human", "tf_dimer_names_top100": ""}, "nodes": [{"html_name_2d": "rs11206510_GWAS_marker_SCP2,PODN_lvl1_2D_plotly.html", "name": "chr1:53527355-53529312 SCP2,PODN", "html_name_3d": "rs11206510_GWAS_marker_SCP2,PODN_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:53527355-53529312", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_SCP2,PODN_lvl1_graph.json", "y": "-4.04841", "x": "0.22888", "z": "0.16815", "open_size": 9.1233, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_SLC25A3P1,LRP8,AK097571,LRP8_lvl1_2D_plotly.html", "name": "chr1:53791253-53795184 SLC25A3P1,LRP8,AK097571,LRP8", "html_name_3d": "rs11206510_GWAS_marker_SLC25A3P1,LRP8,AK097571,LRP8_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:53791253-53795184", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_SLC25A3P1,LRP8,AK097571,LRP8_lvl1_graph.json", "y": "-4.09914", "x": "0.27227", "z": "0.17223", "open_size": 195.89795000000004, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_CC2D1B,ZFYVE9_lvl1_2D_plotly.html", "name": "chr1:52606852-52608795 CC2D1B,ZFYVE9", "html_name_3d": "rs11206510_GWAS_marker_CC2D1B,ZFYVE9_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:52606852-52608795", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_CC2D1B,ZFYVE9_lvl1_graph.json", "y": "-4.11149", "x": "0.22661", "z": "0.08377", "open_size": 112.03305000000002, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_BSND,PCSK9,HP08874,DHCR24,TMEM61_lvl1_2D_plotly.html", "name": "chr1:55504571-55506451 BSND,PCSK9,HP08874,DHCR24,TMEM61", "html_name_3d": "rs11206510_GWAS_marker_BSND,PCSK9,HP08874,DHCR24,TMEM61_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:55504571-55506451", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_BSND,PCSK9,HP08874,DHCR24,TMEM61_lvl1_graph.json", "y": "-3.92427", "x": "0.40601", "z": "0.08485", "open_size": 107.83626000000001, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_OSBPL9,OSBPL9_lvl1_2D_plotly.html", "name": "chr1:52092954-52094147 OSBPL9,OSBPL9", "html_name_3d": "rs11206510_GWAS_marker_OSBPL9,OSBPL9_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:52092954-52094147", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_OSBPL9,OSBPL9_lvl1_graph.json", "y": "-4.11553", "x": "0.10791", "z": "0.07991", "open_size": 90.96296, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_YIPF1,DIO1,HSPB11,LRRC42,NDC1,LDLRAD1,TCEANC2,MIR4781,TMEM59_lvl1_2D_plotly.html", "name": "chr1:54303100-54304863 YIPF1,DIO1,HSPB11,LRRC42,NDC1,LDLRAD1,TCEANC2,MIR4781,TMEM59", "html_name_3d": "rs11206510_GWAS_marker_YIPF1,DIO1,HSPB11,LRRC42,NDC1,LDLRAD1,TCEANC2,MIR4781,TMEM59_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:54303100-54304863", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_YIPF1,DIO1,HSPB11,LRRC42,NDC1,LDLRAD1,TCEANC2,MIR4781,TMEM59_lvl1_graph.json", "y": "-3.99966", "x": "0.37656", "z": "0.07532", "open_size": 198.75880999999998, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_C1ORF123,LOC100507564,MAGOH,CPT2_lvl1_2D_plotly.html", "name": "chr1:53703682-53704975 C1ORF123,LOC100507564,MAGOH,CPT2", "html_name_3d": "rs11206510_GWAS_marker_C1ORF123,LOC100507564,MAGOH,CPT2_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:53703682-53704975", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_C1ORF123,LOC100507564,MAGOH,CPT2_lvl1_graph.json", "y": "-4.09914", "x": "0.27227", "z": "0.17223", "open_size": 36.97143, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_FAF1_lvl1_2D_plotly.html", "name": "chr1:51424640-51426746 FAF1", "html_name_3d": "rs11206510_GWAS_marker_FAF1_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:51424640-51426746", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_FAF1_lvl1_graph.json", "y": "-4.11421", "x": "0.15712", "z": "-0.02318", "open_size": 63.85492000000001, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_TTC4,TTC22,PARS2,C1ORF177,ACOT11,MROH7,FAM151A,HEATR8-TTC4,ACOT11_lvl1_2D_plotly.html", "name": "chr1:55007201-55009329 TTC4,TTC22,PARS2,C1ORF177,ACOT11,MROH7,FAM151A,HEATR8-TTC4,ACOT11", "html_name_3d": "rs11206510_GWAS_marker_TTC4,TTC22,PARS2,C1ORF177,ACOT11,MROH7,FAM151A,HEATR8-TTC4,ACOT11_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:55007201-55009329", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_TTC4,TTC22,PARS2,C1ORF177,ACOT11,MROH7,FAM151A,HEATR8-TTC4,ACOT11_lvl1_graph.json", "y": "-3.91905", "x": "0.44117", "z": "0.1944", "open_size": 22.9599, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_PRPF38A,ORC1,ZCCHC11,FAM159A,GPX7_lvl1_2D_plotly.html", "name": "chr1:53017326-53021025 PRPF38A,ORC1,ZCCHC11,FAM159A,GPX7", "html_name_3d": "rs11206510_GWAS_marker_PRPF38A,ORC1,ZCCHC11,FAM159A,GPX7_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:53017326-53021025", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_PRPF38A,ORC1,ZCCHC11,FAM159A,GPX7_lvl1_graph.json", "y": "-4.0683", "x": "0.18888", "z": "0.13274", "open_size": 163.81792000000002, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_DMRTB1,GLIS1_lvl1_2D_plotly.html", "name": "chr1:54190611-54191858 DMRTB1,GLIS1", "html_name_3d": "rs11206510_GWAS_marker_DMRTB1,GLIS1_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:54190611-54191858", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_DMRTB1,GLIS1_lvl1_graph.json", "y": "-3.99966", "x": "0.37656", "z": "0.07532", "open_size": 144.59877, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_PRKAA2,PPAP2B_lvl1_2D_plotly.html", "name": "chr1:57041926-57046287 PRKAA2,PPAP2B", "html_name_3d": "rs11206510_GWAS_marker_PRKAA2,PPAP2B_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:57041926-57046287", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_PRKAA2,PPAP2B_lvl1_graph.json", "y": "-3.8039", "x": "0.50391", "z": "0.05643", "open_size": 144.68994, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_C1ORF168,C1ORF168_lvl1_2D_plotly.html", "name": "chr1:57223362-57224738 C1ORF168,C1ORF168", "html_name_3d": "rs11206510_GWAS_marker_C1ORF168,C1ORF168_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:57223362-57224738", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_C1ORF168,C1ORF168_lvl1_graph.json", "y": "-3.70339", "x": "0.5955", "z": "0.15097", "open_size": 0, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_ELAVL4,ELAVL4_lvl1_2D_plotly.html", "name": "chr1:50546096-50547569 ELAVL4,ELAVL4", "html_name_3d": "rs11206510_GWAS_marker_ELAVL4,ELAVL4_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:50546096-50547569", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_ELAVL4,ELAVL4_lvl1_graph.json", "y": "-4.09104", "x": "0.16398", "z": "-0.12732", "open_size": 357.04182, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_SSBP3,MRPL37,CYB5RL,CDCP2_lvl1_2D_plotly.html", "name": "chr1:54664696-54666840 SSBP3,MRPL37,CYB5RL,CDCP2", "html_name_3d": "rs11206510_GWAS_marker_SSBP3,MRPL37,CYB5RL,CDCP2_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:54664696-54666840", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_SSBP3,MRPL37,CYB5RL,CDCP2_lvl1_graph.json", "y": "-3.95662", "x": "0.4338", "z": "0.21346", "open_size": 213.56887, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_RNF11,TTC39A,TTC39A_lvl1_2D_plotly.html", "name": "chr1:51761811-51763336 RNF11,TTC39A,TTC39A", "html_name_3d": "rs11206510_GWAS_marker_RNF11,TTC39A,TTC39A_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:51761811-51763336", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_RNF11,TTC39A,TTC39A_lvl1_graph.json", "y": "-4.10431", "x": "0.14351", "z": "0.06559", "open_size": 47.24866, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_7SK_lvl1_2D_plotly.html", "name": "chr1:55840805-55842237 7SK", "html_name_3d": "rs11206510_GWAS_marker_7SK_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:55840805-55842237", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_7SK_lvl1_graph.json", "y": "-3.76952", "x": "0.52303", "z": "0.0169", "open_size": 8.74316, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_LOC100131060,JUN_lvl1_2D_plotly.html", "name": "chr1:59246434-59252232 LOC100131060,JUN", "html_name_3d": "rs11206510_GWAS_marker_LOC100131060,JUN_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:59246434-59252232", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_LOC100131060,JUN_lvl1_graph.json", "y": "-3.64808", "x": "0.49572", "z": "0.30401", "open_size": 252.57847, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_HSD52_lvl1_2D_plotly.html", "name": "chr1:59622155-59623404 HSD52", "html_name_3d": "rs11206510_GWAS_marker_HSD52_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:59622155-59623404", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_HSD52_lvl1_graph.json", "y": "-3.67748", "x": "0.45842", "z": "0.27757", "open_size": 64.08942, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_ECHDC2,SELRC1,SCP2,ECHDC2,SLC1A7_lvl1_2D_plotly.html", "name": "chr1:53392323-53394105 ECHDC2,SELRC1,SCP2,ECHDC2,SLC1A7", "html_name_3d": "rs11206510_GWAS_marker_ECHDC2,SELRC1,SCP2,ECHDC2,SLC1A7_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:53392323-53394105", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_ECHDC2,SELRC1,SCP2,ECHDC2,SLC1A7_lvl1_graph.json", "y": "-4.04841", "x": "0.22888", "z": "0.16815", "open_size": 58.23111, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_BTF3L4,TXNDC12,KTI12_lvl1_2D_plotly.html", "name": "chr1:52497965-52500030 BTF3L4,TXNDC12,KTI12", "html_name_3d": "rs11206510_GWAS_marker_BTF3L4,TXNDC12,KTI12_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:52497965-52500030", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_BTF3L4,TXNDC12,KTI12_lvl1_graph.json", "y": "-4.11149", "x": "0.22661", "z": "0.08377", "open_size": 58.40126000000001, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_FGGY_lvl1_2D_plotly.html", "name": "chr1:59761351-59763501 FGGY", "html_name_3d": "rs11206510_GWAS_marker_FGGY_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:59761351-59763501", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_FGGY_lvl1_graph.json", "y": "-3.67748", "x": "0.45842", "z": "0.27757", "open_size": 168.52629, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_C8B,C8A,BC048114_lvl1_2D_plotly.html", "name": "chr1:57433254-57434903 C8B,C8A,BC048114", "html_name_3d": "rs11206510_GWAS_marker_C8B,C8A,BC048114_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:57433254-57434903", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_C8B,C8A,BC048114_lvl1_graph.json", "y": "-3.70339", "x": "0.5955", "z": "0.15097", "open_size": 68.62567999999999, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_AX748428,SLC1A7_lvl1_2D_plotly.html", "name": "chr1:53581152-53582452 AX748428,SLC1A7", "html_name_3d": "rs11206510_GWAS_marker_AX748428,SLC1A7_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:53581152-53582452", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_AX748428,SLC1A7_lvl1_graph.json", "y": "-4.04841", "x": "0.22888", "z": "0.16815", "open_size": 38.18027, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_MYSM1_lvl1_2D_plotly.html", "name": "chr1:59164726-59166345 MYSM1", "html_name_3d": "rs11206510_GWAS_marker_MYSM1_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:59164726-59166345", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_MYSM1_lvl1_graph.json", "y": "-3.60203", "x": "0.53247", "z": "0.20629", "open_size": 127.83377999999999, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_METAZOA_SRP,RAB3B,NRD1_lvl1_2D_plotly.html", "name": "chr1:52362020-52363422 METAZOA_SRP,RAB3B,NRD1", "html_name_3d": "rs11206510_GWAS_marker_METAZOA_SRP,RAB3B,NRD1_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:52362020-52363422", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_METAZOA_SRP,RAB3B,NRD1_lvl1_graph.json", "y": "-4.11553", "x": "0.10791", "z": "0.07991", "open_size": 126.38889999999998, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_DAB1,OMA1,MYSM1,DAB1_lvl1_2D_plotly.html", "name": "chr1:59117462-59119189 DAB1,OMA1,MYSM1,DAB1", "html_name_3d": "rs11206510_GWAS_marker_DAB1,OMA1,MYSM1,DAB1_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:59117462-59119189", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_DAB1,OMA1,MYSM1,DAB1_lvl1_graph.json", "y": "-3.60203", "x": "0.53247", "z": "0.20629", "open_size": 132.23537, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_DMRTA2,FAF1,U6_lvl1_2D_plotly.html", "name": "chr1:50888609-50889731 DMRTA2,FAF1,U6", "html_name_3d": "rs11206510_GWAS_marker_DMRTA2,FAF1,U6_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:50888609-50889731", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_DMRTA2,FAF1,U6_lvl1_graph.json", "y": "-4.06838", "x": "0.13246", "z": "-0.07322", "open_size": 109.48666, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_HOOK1,BC042048,CYP2J2_lvl1_2D_plotly.html", "name": "chr1:60412315-60413914 HOOK1,BC042048,CYP2J2", "html_name_3d": "rs11206510_GWAS_marker_HOOK1,BC042048,CYP2J2_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:60412315-60413914", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_HOOK1,BC042048,CYP2J2_lvl1_graph.json", "y": "-3.71054", "x": "0.30365", "z": "0.3159", "open_size": 22.43551, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_C1ORF87_lvl1_2D_plotly.html", "name": "chr1:60441924-60443423 C1ORF87", "html_name_3d": "rs11206510_GWAS_marker_C1ORF87_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:60441924-60443423", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_C1ORF87_lvl1_graph.json", "y": "-3.71054", "x": "0.30365", "z": "0.3159", "open_size": 112.58599000000001, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_DAB1,BC033978,BC047487,DAB1_lvl1_2D_plotly.html", "name": "chr1:57886650-57891245 DAB1,BC033978,BC047487,DAB1", "html_name_3d": "rs11206510_GWAS_marker_DAB1,BC033978,BC047487,DAB1_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:57886650-57891245", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_DAB1,BC033978,BC047487,DAB1_lvl1_graph.json", "y": "-3.68861", "x": "0.5711", "z": "0.12288", "open_size": 128.27323, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_EPS15,OSBPL9,U6,OSBPL9_lvl1_2D_plotly.html", "name": "chr1:51983301-51985351 EPS15,OSBPL9,U6,OSBPL9", "html_name_3d": "rs11206510_GWAS_marker_EPS15,OSBPL9,U6,OSBPL9_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:51983301-51985351", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_EPS15,OSBPL9,U6,OSBPL9_lvl1_graph.json", "y": "-4.10431", "x": "0.14351", "z": "0.06559", "open_size": 224.27378, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_TACSTD2_lvl1_2D_plotly.html", "name": "chr1:59042437-59043766 TACSTD2", "html_name_3d": "rs11206510_GWAS_marker_TACSTD2_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:59042437-59043766", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_TACSTD2_lvl1_graph.json", "y": "-3.60203", "x": "0.53247", "z": "0.20629", "open_size": 25.470029999999998, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_C1ORF185_lvl1_2D_plotly.html", "name": "chr1:51524074-51525069 C1ORF185", "html_name_3d": "rs11206510_GWAS_marker_C1ORF185_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:51524074-51525069", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_C1ORF185_lvl1_graph.json", "y": "-4.11421", "x": "0.15712", "z": "-0.02318", "open_size": 19.15025, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_CDKN2C_lvl1_2D_plotly.html", "name": "chr1:51433204-51436311 CDKN2C", "html_name_3d": "rs11206510_GWAS_marker_CDKN2C_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:51433204-51436311", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_CDKN2C_lvl1_graph.json", "y": "-4.11421", "x": "0.15712", "z": "-0.02318", "open_size": 95.53674, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_MIR4422_lvl1_2D_plotly.html", "name": "chr1:55738469-55739326 MIR4422", "html_name_3d": "rs11206510_GWAS_marker_MIR4422_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:55738469-55739326", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_MIR4422_lvl1_graph.json", "y": "-3.76952", "x": "0.52303", "z": "0.0169", "open_size": 99.11632, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}, {"html_name_2d": "rs11206510_GWAS_marker_ZYG11B_lvl1_2D_plotly.html", "name": "chr1:53168175-53169635 ZYG11B", "html_name_3d": "rs11206510_GWAS_marker_ZYG11B_lvl1_3D_plotly.html", "color": "rgb(240,163,255)", "edges_ucsc_lvl0": "rs11206510_GWAS_marker_target_community_edges_lvl_1.bed", "open_lvl0_bed": "rs11206510_GWAS_marker_target_community_open_lvl_1.bed", "id": "chr1:53168175-53169635", "var_lvl0_bed": "rs11206510_GWAS_marker_target_community_variants_lvl_1.bed", "json_name": "rs11206510_GWAS_marker_ZYG11B_lvl1_graph.json", "y": "-4.0683", "x": "0.18888", "z": "0.13274", "open_size": 92.13534, "nodes_lvl0_bed": "rs11206510_GWAS_marker_target_commmunity_nodes_lvl1.bed", "size": 20}], "links": [{"source": 0, "target": 23}, {"source": 0, "target": 19}, {"source": 1, "target": 6}, {"source": 1, "target": 10}, {"source": 2, "target": 9}, {"source": 2, "target": 20}, {"source": 3, "target": 8}, {"source": 3, "target": 35}, {"source": 4, "target": 31}, {"source": 4, "target": 25}, {"source": 5, "target": 14}, {"source": 5, "target": 10}, {"source": 6, "target": 23}, {"source": 7, "target": 27}, {"source": 7, "target": 34}, {"source": 8, "target": 14}, {"source": 9, "target": 36}, {"source": 11, "target": 16}, {"source": 11, "target": 12}, {"source": 12, "target": 22}, {"source": 13, "target": 27}, {"source": 15, "target": 33}, {"source": 15, "target": 31}, {"source": 16, "target": 35}, {"source": 17, "target": 18}, {"source": 17, "target": 24}, {"source": 18, "target": 21}, {"source": 19, "target": 36}, {"source": 20, "target": 25}, {"source": 21, "target": 28}, {"source": 22, "target": 30}, {"source": 24, "target": 26}, {"source": 26, "target": 32}, {"source": 30, "target": 32}, {"source": 33, "target": 34}], "multigraph": false}
+[2016.12.08-13.32.27:451][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Directed Graph:
+[2016.12.08-13.32.27:451][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] false
+[2016.12.08-13.32.27:451][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:53527355-53529312 SCP2,PODN
+[2016.12.08-13.32.27:451][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:53791253-53795184 SLC25A3P1,LRP8,AK097571,LRP8
+[2016.12.08-13.32.27:452][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:52606852-52608795 CC2D1B,ZFYVE9
+[2016.12.08-13.32.27:452][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:55504571-55506451 BSND,PCSK9,HP08874,DHCR24,TMEM61
+[2016.12.08-13.32.27:452][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:52092954-52094147 OSBPL9,OSBPL9
+[2016.12.08-13.32.27:452][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:54303100-54304863 YIPF1,DIO1,HSPB11,LRRC42,NDC1,LDLRAD1,TCEANC2,MIR4781,TMEM59
+[2016.12.08-13.32.27:453][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:53703682-53704975 C1ORF123,LOC100507564,MAGOH,CPT2
+[2016.12.08-13.32.27:453][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:51424640-51426746 FAF1
+[2016.12.08-13.32.27:453][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:55007201-55009329 TTC4,TTC22,PARS2,C1ORF177,ACOT11,MROH7,FAM151A,HEATR8-TTC4,ACOT11
+[2016.12.08-13.32.27:453][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:53017326-53021025 PRPF38A,ORC1,ZCCHC11,FAM159A,GPX7
+[2016.12.08-13.32.27:454][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:54190611-54191858 DMRTB1,GLIS1
+[2016.12.08-13.32.27:454][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:57041926-57046287 PRKAA2,PPAP2B
+[2016.12.08-13.32.27:454][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:57223362-57224738 C1ORF168,C1ORF168
+[2016.12.08-13.32.27:454][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:50546096-50547569 ELAVL4,ELAVL4
+[2016.12.08-13.32.27:455][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:54664696-54666840 SSBP3,MRPL37,CYB5RL,CDCP2
+[2016.12.08-13.32.27:455][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:51761811-51763336 RNF11,TTC39A,TTC39A
+[2016.12.08-13.32.27:455][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:55840805-55842237 7SK
+[2016.12.08-13.32.27:456][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:59246434-59252232 LOC100131060,JUN
+[2016.12.08-13.32.27:456][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:59622155-59623404 HSD52
+[2016.12.08-13.32.27:456][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:53392323-53394105 ECHDC2,SELRC1,SCP2,ECHDC2,SLC1A7
+[2016.12.08-13.32.27:456][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:52497965-52500030 BTF3L4,TXNDC12,KTI12
+[2016.12.08-13.32.27:457][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:59761351-59763501 FGGY
+[2016.12.08-13.32.27:457][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:57433254-57434903 C8B,C8A,BC048114
+[2016.12.08-13.32.27:457][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:53581152-53582452 AX748428,SLC1A7
+[2016.12.08-13.32.27:457][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:59164726-59166345 MYSM1
+[2016.12.08-13.32.27:458][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:52362020-52363422 METAZOA_SRP,RAB3B,NRD1
+[2016.12.08-13.32.27:458][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:59117462-59119189 DAB1,OMA1,MYSM1,DAB1
+[2016.12.08-13.32.27:458][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:50888609-50889731 DMRTA2,FAF1,U6
+[2016.12.08-13.32.27:458][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:60412315-60413914 HOOK1,BC042048,CYP2J2
+[2016.12.08-13.32.27:459][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:60441924-60443423 C1ORF87
+[2016.12.08-13.32.27:459][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:57886650-57891245 DAB1,BC033978,BC047487,DAB1
+[2016.12.08-13.32.27:459][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:51983301-51985351 EPS15,OSBPL9,U6,OSBPL9
+[2016.12.08-13.32.27:459][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:59042437-59043766 TACSTD2
+[2016.12.08-13.32.27:460][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:51524074-51525069 C1ORF185
+[2016.12.08-13.32.27:460][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:51433204-51436311 CDKN2C
+[2016.12.08-13.32.27:460][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:55738469-55739326 MIR4422
+[2016.12.08-13.32.27:460][971]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] chr1:53168175-53169635 ZYG11B
+[2016.12.08-13.32.32:474][234]LogBlueprintUserMessages: [Level1GraphTarget_C_0] I am a new Level 1 Graph Target!
+[2016.12.08-13.32.32:474][234]LogVaRest: Request (urlencoded): GET https://raw.githubusercontent.com/christinakayastha/VirtuallyAGenome/master/data/primed/rs11206510_GWAS_marker/rs11206510_GWAS_marker_CDKN2C_lvl1_graph.json 
+[2016.12.08-13.32.32:474][234]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Trying to load a Lvl1 Graph from:
+[2016.12.08-13.32.32:474][234]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] rs11206510_GWAS_marker_CDKN2C_lvl1_graph.json
+[2016.12.08-13.32.32:493][235]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:494][235]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-894.071 Y=1451.182 Z=302.074
+[2016.12.08-13.32.32:511][236]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:512][236]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-1109.666 Y=1786.972 Z=375.025
+[2016.12.08-13.32.32:532][237]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:532][237]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-1369.643 Y=2205.352 Z=462.889
+[2016.12.08-13.32.32:556][238]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:557][238]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-1681.230 Y=2707.051 Z=568.195
+[2016.12.08-13.32.32:573][239]LogVaRest: Response (200): {"directed": false, "graph": {"style": "filled", "top_genes": "", "tissue_type": "Brain_Cerebellum", "genome_version": "GRCh37.p13", "species": "Human", "target_gene": "CDKN2C"}, "nodes": [{"style": "filled", "gen_chrom": "chr1", "all_ref": "T", "name": "chr1:g.51434291_51434292insGCGAGC", "color": "rgb(232,120,9)", "all_alt": "TGCGAGC", "gen_start": 51434291, "sad_abs_sum": 4.6091999999999942, "gen_end": 51434292, "y": "0.18877", "x": "0.2347", "z": "0.75897", "id": "chr1:g.51434291_51434292insGCGAGC", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51443957C>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51443957, "sad_abs_sum": 1.0148999999999997, "gen_end": 51443957, "cadd": 1.741942, "y": "0.84956", "x": "0.12904", "z": "0.61323", "id": "chr1:g.51443957C>G", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435755C>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51435755, "sad_abs_sum": 2.3401999999999998, "gen_end": 51435755, "y": "0.53103", "x": "0.98814", "z": "0.43328", "deep_score": "CNOT4:-3.0, ", "id": "chr1:g.51435755C>G", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434232G>A", "color": "rgb(255,0,233)", "all_alt": "A", "top_open_snp": true, "gen_start": 51434232, "sad_abs_sum": 50.892900000000076, "gen_end": 51434232, "sad_pdf": "CDKN2C_sad_heat.pdf", "y": "0.02725", "x": "0.28993", "z": "0.59669", "sad_mut_alt": "chr1_g.51434232G_A_A_c105_heat.pdf", "id": "chr1:g.51434232G>A", "sad_mut_ref": "chr1_g.51434232G_A_G_c105_heat.pdf", "size": 12}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "A", "name": "chr1:g.51434256A>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51434256, "sad_abs_sum": 2.0036999999999949, "gen_end": 51434256, "y": "0.17016", "x": "0.29177", "z": "0.83119", "deep_score": "RBM4:3.69, ", "id": "chr1:g.51434256A>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435545C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51435545, "sad_abs_sum": 8.0762999999999963, "gen_end": 51435545, "y": "0.44287", "x": "0.90439", "z": "0.64017", "id": "chr1:g.51435545C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434201G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51434201, "sad_abs_sum": 17.7666, "gen_end": 51434201, "y": "0.00051", "x": "0.45905", "z": "0.59254", "deep_score": "SRSF1:-4.76, ", "id": "chr1:g.51434201G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51443954G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51443954, "sad_abs_sum": 1.0949999999999995, "gen_end": 51443954, "cadd": 1.504523, "y": "0.63315", "x": "0.0634", "z": "0.78074", "id": "chr1:g.51443954G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "CG", "name": "chr1:g.51435016del", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51435016, "gen_end": 51435016, "y": "0.89616", "x": "0.73998", "z": "0.68401", "id": "chr1:g.51435016del", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51434969C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434969, "sad_abs_sum": 4.3294000000000006, "gen_end": 51434969, "y": "0.77254", "x": "0.92297", "z": "0.48562", "id": "chr1:g.51434969C>T", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51435401-51435639", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51435520.0, "id": "chr1:51435401-51435639", "top_tf_probs": "", "dist2anchor": 0, "y": "0.56294", "x": "0.82054", "z": "0.72284", "open_size": 4.85231, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "T", "name": "chr1:g.51435620T>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51435620, "sad_abs_sum": 5.8926000000000025, "gen_end": 51435620, "y": "0.58466", "x": "0.8753", "z": "0.83247", "deep_score": "HNRNPH2:-3.19, ", "id": "chr1:g.51435620T>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51443771C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51443771, "sad_abs_sum": 1.6430999999999991, "gen_end": 51443771, "y": "0.80674", "x": "0.20759", "z": "0.20797", "id": "chr1:g.51443771C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434209G>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51434209, "sad_abs_sum": 8.1173999999999982, "gen_end": 51434209, "y": "0.12473", "x": "0.20899", "z": "0.6976", "id": "chr1:g.51434209G>C", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51433929-51434027", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51433978.0, "id": "chr1:51433929-51434027", "top_tf_probs": "", "dist2anchor": 0, "y": "0.11073", "x": "0.66575", "z": "0.35341", "open_size": 5.40509, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51434241C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434241, "sad_abs_sum": 12.092400000000005, "gen_end": 51434241, "y": "0.08498", "x": "0.48813", "z": "0.81198", "deep_score": "SRSF1:6.97, SRSF1:5.83, ", "id": "chr1:g.51434241C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51434162C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434162, "sad_abs_sum": 2.7212999999999967, "gen_end": 51434162, "y": "0.03032", "x": "0.52489", "z": "0.64807", "id": "chr1:g.51434162C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51435838G>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51435838, "sad_abs_sum": 5.7909999999999968, "gen_end": 51435838, "y": "0.46399", "x": "0.81456", "z": "0.13395", "id": "chr1:g.51435838G>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51443891C>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51443891, "sad_abs_sum": 0.57379999999999964, "gen_end": 51443891, "y": "0.6468", "x": "0.0", "z": "0.49843", "deep_score": "RBM45:3.36, ", "id": "chr1:g.51443891C>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "GGGGAGCGGGCGCCGGCGCCTCCCGGCCGCCGGCGCAGCGCCCC", "name": "chr1:g.51443759_51443801del", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51443759, "gen_end": 51443801, "y": "0.9137", "x": "0.35572", "z": "0.24512", "deep_score": "HNRNPH2:-3.05, ", "id": "chr1:g.51443759_51443801del", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435302C>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51435302, "sad_abs_sum": 1.4749000000000001, "gen_end": 51435302, "y": "0.89559", "x": "0.79624", "z": "0.62261", "id": "chr1:g.51435302C>G", "size": 10}, {"style": "filled", "color": "rgb(174,183,180)", "tfbs": "AP-2gamma,BATF,BCLAF1_(M33-P5B11),CCNT2,CEBPB,CHD2_(N-1250),CtBP2,E2F1,E2F4,E2F6_(H-50),EBF,EBF1_(C-8),ELF1_(SC-631),ETS1,Egr-1,GR,GTF2F1_(RAP-74),HA-E2F1,HEY1,HMGN3,HNF4G_(SC-6558),Mxi1_(bHLH),NANOG_(SC-33759),NFKB,NRSF,PU.1,Pol2,Pol2-4H8,RXRA,SP1,SUZ12,Sin3Ak-20,TAF1,TBP,TCF12,TCF4,YY1,YY1_(C-20),ZBTB7A_(SC-34508),ZNF263", "filt_tf_peak": "", "y": "0.4844", "x": "0.44059", "z": "0.41944", "id": "chr1:51441707-51444713", "size": 20}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "T", "name": "chr1:g.51434067T>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51434067, "sad_abs_sum": 0.93519999999999937, "gen_end": 51434067, "y": "0.1624", "x": "0.10425", "z": "0.52916", "id": "chr1:g.51434067T>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435225C>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51435225, "sad_abs_sum": 2.2339999999999991, "gen_end": 51435225, "y": "0.44962", "x": "1.0", "z": "0.5086", "id": "chr1:g.51435225C>G", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51443379-51443471", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51443425.0, "id": "chr1:51443379-51443471", "top_tf_probs": "", "dist2anchor": 0, "y": "0.4238", "x": "0.37539", "z": "0.09277", "open_size": 4.13512, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435459C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51435459, "sad_abs_sum": 17.54610000000001, "gen_end": 51435459, "y": "0.43359", "x": "0.90687", "z": "0.70893", "deep_score": "SRSF1:5.4, ", "id": "chr1:g.51435459C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51435379G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51435379, "sad_abs_sum": 19.360599999999998, "gen_end": 51435379, "cadd": 0.489828, "y": "0.83415", "x": "0.87327", "z": "0.60554", "id": "chr1:g.51435379G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "A", "name": "chr1:g.51443943A>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51443943, "sad_abs_sum": 0.86339999999999972, "gen_end": 51443943, "y": "0.79544", "x": "0.17714", "z": "0.7944", "id": "chr1:g.51443943A>G", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "CG", "name": "chr1:g.51443789del", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51443789, "gen_end": 51443790, "y": "0.70024", "x": "0.1394", "z": "0.19385", "deep_score": "RBM4:-4.16, ", "id": "chr1:g.51443789del", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51435421G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51435421, "sad_abs_sum": 5.0739999999999936, "gen_end": 51435421, "y": "0.73288", "x": "0.79968", "z": "0.79406", "id": "chr1:g.51435421G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51434338C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434338, "sad_abs_sum": 3.0305999999999971, "gen_end": 51434338, "y": "0.00689", "x": "0.46276", "z": "0.68365", "id": "chr1:g.51434338C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435415C>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51435415, "sad_abs_sum": 11.526399999999995, "gen_end": 51435415, "y": "0.5909", "x": "0.95412", "z": "0.72533", "deep_score": "HNRNPH2:3.95, ", "id": "chr1:g.51435415C>G", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51435794-51435886", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51435840.0, "id": "chr1:51435794-51435886", "top_tf_probs": "", "dist2anchor": 0, "y": "0.39593", "x": "0.76126", "z": "0.23529", "open_size": 4.8219, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435650C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51435650, "sad_abs_sum": 3.9653999999999998, "gen_end": 51435650, "cadd": 0.591826, "y": "0.67443", "x": "0.94556", "z": "0.35644", "id": "chr1:g.51435650C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51443967C>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51443967, "sad_abs_sum": 3.0155000000000012, "gen_end": 51443967, "cadd": 1.524057, "y": "0.77727", "x": "0.05738", "z": "0.53185", "id": "chr1:g.51443967C>G", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51443441C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51443441, "sad_abs_sum": 1.9927999999999999, "gen_end": 51443441, "cadd": 2.743444, "y": "0.42347", "x": "0.23441", "z": "0.0716", "id": "chr1:g.51443441C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "T", "name": "chr1:g.51444051T>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51444051, "sad_abs_sum": 1.4276999999999993, "gen_end": 51444051, "y": "0.65627", "x": "0.00252", "z": "0.58993", "id": "chr1:g.51444051T>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434259G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51434259, "sad_abs_sum": 1.4594999999999942, "gen_end": 51434259, "y": "0.21654", "x": "0.34501", "z": "0.81618", "deep_score": "RBM4:7.95, ", "id": "chr1:g.51434259G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51434207C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434207, "sad_abs_sum": 2.3759999999999963, "gen_end": 51434207, "y": "0.00108", "x": "0.3805", "z": "0.61835", "deep_score": "SRSF1:3.65, ", "id": "chr1:g.51434207C>T", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51443628-51443811", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51443719.5, "id": "chr1:51443628-51443811", "top_tf_probs": "", "dist2anchor": 0, "y": "0.76093", "x": "0.29417", "z": "0.23329", "open_size": 5.78917, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51434000C>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51434000, "sad_abs_sum": 15.383399999999986, "gen_end": 51434000, "y": "0.04972", "x": "0.51412", "z": "0.38398", "id": "chr1:g.51434000C>G", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51435272G>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51435272, "sad_abs_sum": 1.4888000000000003, "gen_end": 51435272, "y": "0.88208", "x": "0.81772", "z": "0.42113", "id": "chr1:g.51435272G>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435681C>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51435681, "sad_abs_sum": 14.568800000000012, "gen_end": 51435681, "y": "0.61478", "x": "0.97689", "z": "0.40742", "id": "chr1:g.51435681C>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435058C>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51435058, "sad_abs_sum": 1.0438999999999998, "gen_end": 51435058, "y": "0.8441", "x": "0.78097", "z": "0.75599", "deep_score": "FOXD2:3.24, ", "id": "chr1:g.51435058C>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51434124C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434124, "sad_abs_sum": 1.4499999999999995, "gen_end": 51434124, "cadd": 1.334703, "y": "0.1102", "x": "0.1514", "z": "0.4608", "id": "chr1:g.51434124C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434325G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51434325, "sad_abs_sum": 3.3584999999999949, "gen_end": 51434325, "y": "0.11276", "x": "0.25034", "z": "0.76641", "deep_score": "EGR1:3.5, GBX1:-3.14, ", "id": "chr1:g.51434325G>A", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51435453-51435559", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51435506.0, "id": "chr1:51435453-51435559", "top_tf_probs": "", "dist2anchor": 0, "y": "0.30133", "x": "0.8354", "z": "0.6142", "open_size": 5.81726, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51435016G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51435016, "sad_abs_sum": 3.8058000000000005, "gen_end": 51435016, "y": "0.82119", "x": "0.84309", "z": "0.35946", "id": "chr1:g.51435016G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434129G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51434129, "sad_abs_sum": 0.8752999999999993, "gen_end": 51434129, "y": "0.05717", "x": "0.22598", "z": "0.42591", "deep_score": "CNOT4:-3.46, ", "id": "chr1:g.51434129G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "T", "name": "chr1:g.51435783T>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51435783, "sad_abs_sum": 3.5487999999999991, "gen_end": 51435783, "cadd": 1.128786, "y": "0.50039", "x": "0.97578", "z": "0.36845", "id": "chr1:g.51435783T>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435440C>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51435440, "sad_abs_sum": 4.9393999999999965, "gen_end": 51435440, "y": "0.66227", "x": "0.89464", "z": "0.78965", "id": "chr1:g.51435440C>G", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434225G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51434225, "sad_abs_sum": 1.9445999999999937, "gen_end": 51434225, "y": "0.15478", "x": "0.4523", "z": "0.83585", "deep_score": "RBM45:-3.3, ", "id": "chr1:g.51434225G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435110C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51435110, "sad_abs_sum": 1.1886999999999996, "gen_end": 51435110, "y": "0.62514", "x": "0.99068", "z": "0.57421", "id": "chr1:g.51435110C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51435347G>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51435347, "sad_abs_sum": 4.0735000000000001, "gen_end": 51435347, "y": "0.50998", "x": "0.94535", "z": "0.76606", "id": "chr1:g.51435347G>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434048G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51434048, "sad_abs_sum": 1.1287999999999998, "gen_end": 51434048, "y": "0.19955", "x": "0.0911", "z": "0.63979", "id": "chr1:g.51434048G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435723C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51435723, "sad_abs_sum": 24.713800000000006, "gen_end": 51435723, "y": "0.59932", "x": "0.95058", "z": "0.31822", "id": "chr1:g.51435723C>T", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51435637-51435913", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51435775.0, "id": "chr1:51435637-51435913", "top_tf_probs": "", "dist2anchor": 0, "y": "0.51706", "x": "0.86881", "z": "0.32165", "open_size": 3.89058, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434336G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51434336, "sad_abs_sum": 7.9574999999999871, "gen_end": 51434336, "y": "0.095", "x": "0.32853", "z": "0.80401", "deep_score": "EGR1:3.16, ", "id": "chr1:g.51434336G>A", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51433909-51434394", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51434151.5, "id": "chr1:51433909-51434394", "top_tf_probs": "", "dist2anchor": 0, "y": "0.11239", "x": "0.34641", "z": "0.63105", "open_size": 14.7842, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "T", "name": "chr1:g.51435610T>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51435610, "sad_abs_sum": 3.069, "gen_end": 51435610, "cadd": 0.601325, "y": "0.744", "x": "0.87858", "z": "0.73924", "id": "chr1:g.51435610T>G", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "GC", "name": "chr1:g.51443776del", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51443776, "gen_end": 51443777, "y": "0.84164", "x": "0.17449", "z": "0.30466", "id": "chr1:g.51443776del", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51433908-51434000", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51433954.0, "id": "chr1:51433908-51434000", "top_tf_probs": "", "dist2anchor": 0, "y": "0.14303", "x": "0.60229", "z": "0.29264", "open_size": 4.62272, "size": 15}, {"style": "filled", "gene": true, "name": "CDKN2C", "in_name": "CDKN2C", "color": "rgb(17,166,216)", "fpkm": 0.0, "tfbs": "BATF,CCNT2,CEBPB,CHD2_(N-1250),CTCF,CTCFL_(SC-98982),CTCF_(C-20),CTCF_(SC-5916),E2F1,E2F4,E2F6,E2F6_(H-50),EBF1_(C-8),ELF1_(SC-631),ETS1,Egr-1,FOXA1_(C-20),FOXA1_(SC-101058),GABP,GATA-1,GTF2B,HA-E2F1,HEY1,HMGN3,IRF1,Ini1,MafF_(M8194),MafK_(SC-477),MafK_(ab50322),Max,Mxi1_(bHLH),NFKB,NRSF,Pol2,Pol2(b),Pol2-4H8,Rad21,SP1,STAT3,SUZ12,Sin3Ak-20,TAF1,TAF7_(SQ-8),TBP,TCF4,USF-1,USF1_(SC-8983),USF2,YY1,YY1_(C-20),ZBTB7A_(SC-34508),ZNF263", "filt_tf_peak": "", "y": "0.36758", "x": "0.58515", "z": "0.49108", "id": "chr1:51433204-51436311", "size": 50}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "CG", "name": "chr1:g.51443977del", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51443977, "gen_end": 51443978, "y": "0.8618", "x": "0.18531", "z": "0.70725", "id": "chr1:g.51443977del", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "T", "name": "chr1:g.51443447T>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51443447, "sad_abs_sum": 0.60779999999999956, "gen_end": 51443447, "y": "0.38204", "x": "0.50548", "z": "0.00773", "id": "chr1:g.51443447T>G", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434141G>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434141, "sad_abs_sum": 1.9231999999999985, "gen_end": 51434141, "cadd": 0.45505, "y": "0.0", "x": "0.38243", "z": "0.50771", "deep_score": "CNOT4:3.79, SRSF1:3.78, ", "id": "chr1:g.51434141G>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434227G>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434227, "sad_abs_sum": 2.4815999999999954, "gen_end": 51434227, "y": "0.04283", "x": "0.52315", "z": "0.73981", "deep_score": "SRSF1:5.27, FMR1:4.2, ", "id": "chr1:g.51434227G>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51435223G>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51435223, "sad_abs_sum": 3.8069999999999999, "gen_end": 51435223, "y": "0.86783", "x": "0.84933", "z": "0.50367", "id": "chr1:g.51435223G>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434151G>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434151, "sad_abs_sum": 2.5112999999999968, "gen_end": 51434151, "y": "0.04392", "x": "0.32052", "z": "0.70705", "id": "chr1:g.51434151G>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51443417C>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51443417, "sad_abs_sum": 4.1735000000000015, "gen_end": 51443417, "y": "0.31758", "x": "0.30713", "z": "0.05811", "deep_score": "GBX1:3.2, ", "id": "chr1:g.51443417C>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51443649G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51443649, "sad_abs_sum": 0.68519999999999981, "gen_end": 51443649, "y": "0.91909", "x": "0.27635", "z": "0.31847", "id": "chr1:g.51443649G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435629C>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51435629, "sad_abs_sum": 3.8128000000000006, "gen_end": 51435629, "y": "0.68195", "x": "0.93772", "z": "0.69837", "id": "chr1:g.51435629C>G", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51434945-51435826", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51435385.5, "id": "chr1:51434945-51435826", "top_tf_probs": "", "dist2anchor": 0, "y": "0.66017", "x": "0.86889", "z": "0.56679", "open_size": 8.54129, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434098G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51434098, "sad_abs_sum": 0.51250000000000007, "gen_end": 51434098, "cadd": 0.433978, "y": "0.04256", "x": "0.31469", "z": "0.38545", "id": "chr1:g.51434098G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51435822C>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51435822, "sad_abs_sum": 17.429099999999988, "gen_end": 51435822, "cadd": 1.471331, "y": "0.5731", "x": "0.8511", "z": "0.27287", "id": "chr1:g.51435822C>G", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51443705G>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51443705, "sad_abs_sum": 0.69640000000000002, "gen_end": 51443705, "y": "0.69581", "x": "0.23848", "z": "0.10721", "id": "chr1:g.51443705G>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "T", "name": "chr1:g.51443418T>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51443418, "sad_abs_sum": 1.1868999999999992, "gen_end": 51443418, "y": "0.36249", "x": "0.40979", "z": "0.01501", "id": "chr1:g.51443418T>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51443740G>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51443740, "sad_abs_sum": 1.5250999999999997, "gen_end": 51443740, "y": "0.77049", "x": "0.34565", "z": "0.09789", "id": "chr1:g.51443740G>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "T", "name": "chr1:g.51435651T>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51435651, "sad_abs_sum": 11.739599999999999, "gen_end": 51435651, "cadd": 0.787362, "y": "0.70482", "x": "0.89403", "z": "0.31048", "id": "chr1:g.51435651T>A", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51434134-51434343", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51434238.5, "id": "chr1:51434134-51434343", "top_tf_probs": "", "dist2anchor": 0, "y": "0.10754", "x": "0.39099", "z": "0.68939", "open_size": 13.89881, "size": 15}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51434142-51434403", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51434272.5, "id": "chr1:51434142-51434403", "top_tf_probs": "", "dist2anchor": 0, "y": "0.12497", "x": "0.39417", "z": "0.71367", "open_size": 13.97665, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51434158C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434158, "sad_abs_sum": 3.1421999999999981, "gen_end": 51434158, "y": "0.06717", "x": "0.23541", "z": "0.65249", "id": "chr1:g.51434158C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51435020G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51435020, "sad_abs_sum": 7.6451999999999991, "gen_end": 51435020, "y": "0.49129", "x": "0.99855", "z": "0.61891", "id": "chr1:g.51435020G>A", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51443389G>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51443389, "sad_abs_sum": 0.56989999999999941, "gen_end": 51443389, "cadd": 0.022548, "y": "0.5154", "x": "0.42122", "z": "0.0", "id": "chr1:g.51443389G>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51443992C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51443992, "sad_abs_sum": 1.3033999999999994, "gen_end": 51443992, "y": "0.73978", "x": "0.07221", "z": "0.70783", "deep_score": "SRSF1:3.24, ", "id": "chr1:g.51443992C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "T", "name": "chr1:g.51435611T>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51435611, "sad_abs_sum": 2.9427999999999983, "gen_end": 51435611, "y": "0.66934", "x": "0.81992", "z": "0.84126", "id": "chr1:g.51435611T>C", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "A", "name": "chr1:g.51443943A>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51443943, "sad_abs_sum": 1.2393000000000001, "gen_end": 51443943, "y": "0.70124", "x": "0.14415", "z": "0.83411", "deep_score": "SRSF10:4.48, ", "id": "chr1:g.51443943A>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51434194G>C", "color": "rgb(232,120,9)", "all_alt": "C", "gen_start": 51434194, "sad_abs_sum": 2.7434999999999961, "gen_end": 51434194, "y": "0.12838", "x": "0.38297", "z": "0.85231", "id": "chr1:g.51434194G>C", "size": 10}, {"style": "filled", "top_tf_names": "", "filt_tf_open": "", "name": "chr1:51443824-51444052", "color": "rgb(170,15,226)", "DMC_node": "", "deepbind_tf": "", "mid": 51443938.0, "id": "chr1:51443824-51444052", "top_tf_probs": "", "dist2anchor": 0, "y": "0.69002", "x": "0.13915", "z": "0.63304", "open_size": 5.00164, "size": 15}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51443706C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51443706, "sad_abs_sum": 2.2158999999999995, "gen_end": 51443706, "y": "0.85011", "x": "0.40596", "z": "0.1569", "deep_score": "SRSF1:3.44, ", "id": "chr1:g.51443706C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "A", "name": "chr1:g.51435311A>G", "color": "rgb(232,120,9)", "all_alt": "G", "gen_start": 51435311, "sad_abs_sum": 2.2232000000000003, "gen_end": 51435311, "y": "0.92505", "x": "0.76696", "z": "0.52703", "id": "chr1:g.51435311A>G", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "C", "name": "chr1:g.51434152C>T", "color": "rgb(232,120,9)", "all_alt": "T", "gen_start": 51434152, "sad_abs_sum": 2.1689999999999943, "gen_end": 51434152, "y": "0.04866", "x": "0.43598", "z": "0.77251", "id": "chr1:g.51434152C>T", "size": 10}, {"style": "filled", "gen_chrom": "chr1", "all_ref": "G", "name": "chr1:g.51443858G>A", "color": "rgb(232,120,9)", "all_alt": "A", "gen_start": 51443858, "sad_abs_sum": 1.2779, "gen_end": 51443858, "y": "0.58565", "x": "0.00578", "z": "0.67258", "id": "chr1:g.51443858G>A", "size": 10}], "links": [{"source": 0, "target": 79, "weight": 1.0, "label": ""}, {"source": 0, "target": 58, "weight": 1.0, "label": ""}, {"source": 0, "target": 80, "weight": 1.0, "label": ""}, {"source": 1, "target": 88, "weight": 1.0, "label": ""}, {"source": 2, "target": 72, "weight": 1.0, "label": ""}, {"source": 2, "target": 56, "weight": 1.0, "label": ""}, {"source": 3, "target": 79, "weight": 1.0, "label": ""}, {"source": 3, "target": 58, "weight": 1.0, "label": ""}, {"source": 3, "target": 80, "weight": 1.0, "label": ""}, {"source": 4, "target": 79, "weight": 1.0, "label": ""}, {"source": 4, "target": 58, "weight": 1.0, "label": ""}, {"source": 4, "target": 80, "weight": 1.0, "label": ""}, {"source": 5, "target": 72, "weight": 1.0, "label": ""}, {"source": 5, "target": 46, "weight": 1.0, "label": ""}, {"source": 5, "target": 10, "weight": 1.0, "label": ""}, {"source": 6, "target": 79, "weight": 1.0, "label": ""}, {"source": 6, "target": 58, "weight": 1.0, "label": ""}, {"source": 6, "target": 80, "weight": 1.0, "label": ""}, {"source": 7, "target": 88, "weight": 1.0, "label": ""}, {"source": 8, "target": 72, "weight": 1.0, "label": ""}, {"source": 9, "target": 72, "weight": 1.0, "label": ""}, {"source": 10, "target": 59, "weight": 1.0, "label": ""}, {"source": 10, "target": 31, "weight": 1.0, "label": ""}, {"source": 10, "target": 71, "weight": 1.0, "label": ""}, {"source": 10, "target": 25, "weight": 1.0, "label": ""}, {"source": 10, "target": 11, "weight": 1.0, "label": ""}, {"source": 10, "target": 85, "weight": 1.0, "label": ""}, {"source": 10, "target": 62, "weight": 1.0, "label": ""}, {"source": 10, "target": 29, "weight": 1.0, "label": ""}, {"source": 10, "target": 50, "weight": 1.0, "label": ""}, {"source": 11, "target": 72, "weight": 1.0, "label": ""}, {"source": 12, "target": 39, "weight": 1.0, "label": ""}, {"source": 13, "target": 79, "weight": 1.0, "label": ""}, {"source": 13, "target": 58, "weight": 1.0, "label": ""}, {"source": 13, "target": 80, "weight": 1.0, "label": ""}, {"source": 14, "target": 40, "weight": 1.0, "label": ""}, {"source": 14, "target": 62, "weight": 1.0, "label": ""}, {"source": 15, "target": 79, "weight": 1.0, "label": ""}, {"source": 15, "target": 58, "weight": 1.0, "label": ""}, {"source": 15, "target": 80, "weight": 1.0, "label": ""}, {"source": 16, "target": 79, "weight": 1.0, "label": ""}, {"source": 16, "target": 58, "weight": 1.0, "label": ""}, {"source": 16, "target": 80, "weight": 1.0, "label": ""}, {"source": 17, "target": 32, "weight": 1.0, "label": ""}, {"source": 17, "target": 56, "weight": 1.0, "label": ""}, {"source": 18, "target": 88, "weight": 1.0, "label": ""}, {"source": 19, "target": 39, "weight": 1.0, "label": ""}, {"source": 20, "target": 72, "weight": 1.0, "label": ""}, {"source": 21, "target": 24, "weight": 1.0, "label": ""}, {"source": 21, "target": 88, "weight": 1.0, "label": ""}, {"source": 21, "target": 39, "weight": 1.0, "label": ""}, {"capacity": 1, "target": 62, "weight": 8, "overlapped_tf": ", ", "label": 1, "source": 21}, {"source": 22, "target": 58, "weight": 1.0, "label": ""}, {"source": 23, "target": 72, "weight": 1.0, "label": ""}, {"source": 24, "target": 35, "weight": 1.0, "label": ""}, {"source": 24, "target": 69, "weight": 1.0, "label": ""}, {"source": 24, "target": 64, "weight": 1.0, "label": ""}, {"source": 24, "target": 83, "weight": 1.0, "label": ""}, {"source": 24, "target": 76, "weight": 1.0, "label": ""}, {"source": 25, "target": 72, "weight": 1.0, "label": ""}, {"source": 25, "target": 46, "weight": 1.0, "label": ""}, {"source": 26, "target": 72, "weight": 1.0, "label": ""}, {"source": 27, "target": 88, "weight": 1.0, "label": ""}, {"source": 28, "target": 39, "weight": 1.0, "label": ""}, {"source": 29, "target": 72, "weight": 1.0, "label": ""}, {"source": 30, "target": 79, "weight": 1.0, "label": ""}, {"source": 30, "target": 58, "weight": 1.0, "label": ""}, {"source": 30, "target": 80, "weight": 1.0, "label": ""}, {"source": 31, "target": 72, "weight": 1.0, "label": ""}, {"source": 32, "target": 74, "weight": 1.0, "label": ""}, {"source": 32, "target": 62, "weight": 1.0, "label": ""}, {"source": 33, "target": 72, "weight": 1.0, "label": ""}, {"source": 33, "target": 56, "weight": 1.0, "label": ""}, {"source": 34, "target": 88, "weight": 1.0, "label": ""}, {"source": 36, "target": 88, "weight": 1.0, "label": ""}, {"source": 37, "target": 79, "weight": 1.0, "label": ""}, {"source": 37, "target": 58, "weight": 1.0, "label": ""}, {"source": 37, "target": 80, "weight": 1.0, "label": ""}, {"source": 38, "target": 79, "weight": 1.0, "label": ""}, {"source": 38, "target": 58, "weight": 1.0, "label": ""}, {"source": 38, "target": 80, "weight": 1.0, "label": ""}, {"source": 39, "target": 89, "weight": 1.0, "label": ""}, {"source": 39, "target": 60, "weight": 1.0, "label": ""}, {"source": 39, "target": 70, "weight": 1.0, "label": ""}, {"source": 39, "target": 77, "weight": 1.0, "label": ""}, {"source": 39, "target": 75, "weight": 1.0, "label": ""}, {"source": 40, "target": 58, "weight": 1.0, "label": ""}, {"source": 40, "target": 61, "weight": 1.0, "label": ""}, {"source": 41, "target": 72, "weight": 1.0, "label": ""}, {"source": 42, "target": 72, "weight": 1.0, "label": ""}, {"source": 42, "target": 56, "weight": 1.0, "label": ""}, {"source": 43, "target": 72, "weight": 1.0, "label": ""}, {"source": 44, "target": 58, "weight": 1.0, "label": ""}, {"source": 45, "target": 79, "weight": 1.0, "label": ""}, {"source": 45, "target": 58, "weight": 1.0, "label": ""}, {"source": 45, "target": 80, "weight": 1.0, "label": ""}, {"source": 46, "target": 62, "weight": 1.0, "label": ""}, {"source": 47, "target": 72, "weight": 1.0, "label": ""}, {"source": 48, "target": 58, "weight": 1.0, "label": ""}, {"source": 49, "target": 72, "weight": 1.0, "label": ""}, {"source": 49, "target": 56, "weight": 1.0, "label": ""}, {"source": 50, "target": 72, "weight": 1.0, "label": ""}, {"source": 51, "target": 79, "weight": 1.0, "label": ""}, {"source": 51, "target": 58, "weight": 1.0, "label": ""}, {"source": 51, "target": 80, "weight": 1.0, "label": ""}, {"source": 52, "target": 72, "weight": 1.0, "label": ""}, {"source": 53, "target": 72, "weight": 1.0, "label": ""}, {"source": 54, "target": 58, "weight": 1.0, "label": ""}, {"source": 55, "target": 72, "weight": 1.0, "label": ""}, {"source": 55, "target": 56, "weight": 1.0, "label": ""}, {"source": 56, "target": 78, "weight": 1.0, "label": ""}, {"source": 56, "target": 74, "weight": 1.0, "label": ""}, {"source": 56, "target": 62, "weight": 1.0, "label": ""}, {"source": 57, "target": 79, "weight": 1.0, "label": ""}, {"source": 57, "target": 58, "weight": 1.0, "label": ""}, {"source": 57, "target": 80, "weight": 1.0, "label": ""}, {"source": 58, "target": 66, "weight": 1.0, "label": ""}, {"source": 58, "target": 68, "weight": 1.0, "label": ""}, {"source": 58, "target": 73, "weight": 1.0, "label": ""}, {"source": 58, "target": 65, "weight": 1.0, "label": ""}, {"source": 58, "target": 81, "weight": 1.0, "label": ""}, {"source": 58, "target": 87, "weight": 1.0, "label": ""}, {"source": 58, "target": 91, "weight": 1.0, "label": ""}, {"source": 58, "target": 62, "weight": 1.0, "label": ""}, {"source": 59, "target": 72, "weight": 1.0, "label": ""}, {"source": 61, "target": 62, "weight": 1.0, "label": ""}, {"source": 62, "target": 72, "weight": 1.0, "label": ""}, {"source": 62, "target": 79, "weight": 1.0, "label": ""}, {"source": 62, "target": 80, "weight": 1.0, "label": ""}, {"source": 63, "target": 88, "weight": 1.0, "label": ""}, {"source": 65, "target": 79, "weight": 1.0, "label": ""}, {"source": 66, "target": 79, "weight": 1.0, "label": ""}, {"source": 66, "target": 80, "weight": 1.0, "label": ""}, {"source": 67, "target": 72, "weight": 1.0, "label": ""}, {"source": 68, "target": 79, "weight": 1.0, "label": ""}, {"source": 68, "target": 80, "weight": 1.0, "label": ""}, {"source": 71, "target": 72, "weight": 1.0, "label": ""}, {"source": 72, "target": 74, "weight": 1.0, "label": ""}, {"source": 72, "target": 78, "weight": 1.0, "label": ""}, {"source": 72, "target": 85, "weight": 1.0, "label": ""}, {"source": 72, "target": 82, "weight": 1.0, "label": ""}, {"source": 72, "target": 90, "weight": 1.0, "label": ""}, {"source": 79, "target": 91, "weight": 1.0, "label": ""}, {"source": 79, "target": 81, "weight": 1.0, "label": ""}, {"source": 79, "target": 87, "weight": 1.0, "label": ""}, {"source": 80, "target": 91, "weight": 1.0, "label": ""}, {"source": 80, "target": 81, "weight": 1.0, "label": ""}, {"source": 80, "target": 87, "weight": 1.0, "label": ""}, {"source": 84, "target": 88, "weight": 1.0, "label": ""}, {"source": 86, "target": 88, "weight": 1.0, "label": ""}, {"source": 88, "target": 92, "weight": 1.0, "label": ""}], "multigraph": false}
+[2016.12.08-13.32.32:589][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] Directed Graph:
+[2016.12.08-13.32.32:589][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] false
+[2016.12.08-13.32.32:590][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434291_51434292insGCGAGC
+[2016.12.08-13.32.32:590][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:590][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:590][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443957C>G
+[2016.12.08-13.32.32:591][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:591][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:591][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435755C>G
+[2016.12.08-13.32.32:591][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:591][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:591][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434232G>A
+[2016.12.08-13.32.32:591][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=255.000 Y=0.000 Z=233.000
+[2016.12.08-13.32.32:591][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=1.000 Y=0.000 Z=0.914
+[2016.12.08-13.32.32:591][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434256A>C
+[2016.12.08-13.32.32:591][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435545C>T
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434201G>A
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443954G>A
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:592][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435016del
+[2016.12.08-13.32.32:593][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:593][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:593][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434969C>T
+[2016.12.08-13.32.32:593][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:593][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:593][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51435401-51435639
+[2016.12.08-13.32.32:593][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:593][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:593][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435620T>C
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443771C>T
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434209G>C
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51433929-51434027
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:594][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:595][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434241C>T
+[2016.12.08-13.32.32:595][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:595][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:595][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434162C>T
+[2016.12.08-13.32.32:595][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:595][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:595][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435838G>C
+[2016.12.08-13.32.32:595][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:595][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:595][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443891C>A
+[2016.12.08-13.32.32:596][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:596][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:596][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443759_51443801del
+[2016.12.08-13.32.32:596][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:596][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:596][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435302C>G
+[2016.12.08-13.32.32:596][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:596][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:596][239]LogVaRest:Warning: No field with name name of type String
+[2016.12.08-13.32.32:596][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] 
+[2016.12.08-13.32.32:596][239]LogVaRest:Warning: No field with name name of type String
+[2016.12.08-13.32.32:597][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=174.000 Y=183.000 Z=180.000
+[2016.12.08-13.32.32:597][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.682 Y=0.718 Z=0.706
+[2016.12.08-13.32.32:597][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434067T>C
+[2016.12.08-13.32.32:597][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:597][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:597][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435225C>G
+[2016.12.08-13.32.32:597][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:598][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:598][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51443379-51443471
+[2016.12.08-13.32.32:598][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:598][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:598][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435459C>T
+[2016.12.08-13.32.32:598][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:598][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:598][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435379G>A
+[2016.12.08-13.32.32:599][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:599][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:599][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443943A>G
+[2016.12.08-13.32.32:599][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:599][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:599][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443789del
+[2016.12.08-13.32.32:600][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:600][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:600][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435421G>A
+[2016.12.08-13.32.32:600][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:600][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:600][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434338C>T
+[2016.12.08-13.32.32:600][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:600][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:600][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435415C>G
+[2016.12.08-13.32.32:601][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:601][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:601][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51435794-51435886
+[2016.12.08-13.32.32:601][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:601][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:601][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435650C>T
+[2016.12.08-13.32.32:601][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:601][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:601][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443967C>G
+[2016.12.08-13.32.32:601][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:602][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:602][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443441C>T
+[2016.12.08-13.32.32:602][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:602][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:602][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51444051T>C
+[2016.12.08-13.32.32:602][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:602][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:602][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434259G>A
+[2016.12.08-13.32.32:603][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:603][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:603][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434207C>T
+[2016.12.08-13.32.32:603][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:603][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:603][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51443628-51443811
+[2016.12.08-13.32.32:603][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:603][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:604][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434000C>G
+[2016.12.08-13.32.32:604][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:604][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:604][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435272G>C
+[2016.12.08-13.32.32:604][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:604][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:604][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435681C>A
+[2016.12.08-13.32.32:605][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:605][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:605][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435058C>A
+[2016.12.08-13.32.32:605][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:605][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:605][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434124C>T
+[2016.12.08-13.32.32:605][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:605][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:605][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434325G>A
+[2016.12.08-13.32.32:606][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:606][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:606][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51435453-51435559
+[2016.12.08-13.32.32:606][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:606][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:606][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435016G>A
+[2016.12.08-13.32.32:606][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:606][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:606][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434129G>A
+[2016.12.08-13.32.32:606][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:607][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:607][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435783T>C
+[2016.12.08-13.32.32:607][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:607][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:607][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435440C>G
+[2016.12.08-13.32.32:607][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:607][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:607][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434225G>A
+[2016.12.08-13.32.32:608][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:608][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:608][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435110C>T
+[2016.12.08-13.32.32:608][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:608][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:608][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435347G>T
+[2016.12.08-13.32.32:608][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:608][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:608][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434048G>A
+[2016.12.08-13.32.32:609][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:609][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:609][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435723C>T
+[2016.12.08-13.32.32:609][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:609][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:609][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51435637-51435913
+[2016.12.08-13.32.32:609][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:609][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:609][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434336G>A
+[2016.12.08-13.32.32:609][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:610][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:610][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51433909-51434394
+[2016.12.08-13.32.32:610][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:610][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:610][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435610T>G
+[2016.12.08-13.32.32:610][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:610][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:610][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443776del
+[2016.12.08-13.32.32:610][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:610][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:611][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51433908-51434000
+[2016.12.08-13.32.32:611][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:611][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:611][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] CDKN2C
+[2016.12.08-13.32.32:611][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=17.000 Y=166.000 Z=216.000
+[2016.12.08-13.32.32:611][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.067 Y=0.651 Z=0.847
+[2016.12.08-13.32.32:611][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443977del
+[2016.12.08-13.32.32:611][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:611][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:612][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443447T>G
+[2016.12.08-13.32.32:612][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:612][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:612][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434141G>T
+[2016.12.08-13.32.32:612][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:612][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:612][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434227G>T
+[2016.12.08-13.32.32:612][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:613][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:613][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435223G>C
+[2016.12.08-13.32.32:613][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:613][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:613][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434151G>T
+[2016.12.08-13.32.32:613][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:613][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:613][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443417C>A
+[2016.12.08-13.32.32:613][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:614][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:614][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443649G>A
+[2016.12.08-13.32.32:614][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:614][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:614][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435629C>G
+[2016.12.08-13.32.32:614][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:614][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:614][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51434945-51435826
+[2016.12.08-13.32.32:614][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434098G>A
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435822C>G
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443705G>T
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:615][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443418T>C
+[2016.12.08-13.32.32:616][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:616][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:616][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443740G>C
+[2016.12.08-13.32.32:616][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:616][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:616][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435651T>A
+[2016.12.08-13.32.32:616][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:616][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:616][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51434134-51434343
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51434142-51434403
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434158C>T
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435020G>A
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:617][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:618][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443389G>C
+[2016.12.08-13.32.32:618][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:618][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:618][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443992C>T
+[2016.12.08-13.32.32:618][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:618][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:618][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435611T>C
+[2016.12.08-13.32.32:618][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:618][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:618][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443943A>T
+[2016.12.08-13.32.32:619][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:619][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:619][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434194G>C
+[2016.12.08-13.32.32:619][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:619][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:619][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:51443824-51444052
+[2016.12.08-13.32.32:619][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=170.000 Y=15.000 Z=226.000
+[2016.12.08-13.32.32:619][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.667 Y=0.059 Z=0.886
+[2016.12.08-13.32.32:619][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443706C>T
+[2016.12.08-13.32.32:620][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:620][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:620][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51435311A>G
+[2016.12.08-13.32.32:620][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:620][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:620][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51434152C>T
+[2016.12.08-13.32.32:620][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:620][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:620][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] chr1:g.51443858G>A
+[2016.12.08-13.32.32:621][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=232.000 Y=120.000 Z=9.000
+[2016.12.08-13.32.32:621][239]LogBlueprintUserMessages: [Level1GraphTarget_C_0] X=0.910 Y=0.471 Z=0.035
+[2016.12.08-13.32.32:627][239]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:627][239]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-2036.515 Y=3279.116 Z=688.268
+[2016.12.08-13.32.32:648][240]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:648][240]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-2426.364 Y=3906.836 Z=820.023
+[2016.12.08-13.32.32:667][241]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:667][241]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-2841.081 Y=4574.597 Z=960.182
+[2016.12.08-13.32.32:686][242]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:687][242]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-3270.822 Y=5266.548 Z=1105.419
+[2016.12.08-13.32.32:708][243]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:708][243]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-3705.989 Y=5967.238 Z=1252.490
+[2016.12.08-13.32.32:731][244]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:731][244]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-4137.591 Y=6662.188 Z=1398.356
+[2016.12.08-13.32.32:754][245]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:754][245]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-4557.547 Y=7338.384 Z=1540.286
+[2016.12.08-13.32.32:774][246]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:774][246]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-4958.918 Y=7984.655 Z=1675.935
+[2016.12.08-13.32.32:795][247]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:795][247]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-5336.067 Y=8591.926 Z=1803.397
+[2016.12.08-13.32.32:814][248]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:814][248]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-5684.735 Y=9153.337 Z=1921.234
+[2016.12.08-13.32.32:834][249]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:834][249]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-6002.047 Y=9664.261 Z=2028.474
+[2016.12.08-13.32.32:854][250]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:854][250]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-6286.441 Y=10122.181 Z=2124.589
+[2016.12.08-13.32.32:873][251]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:873][251]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-6537.550 Y=10526.506 Z=2209.455
+[2016.12.08-13.32.32:892][252]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:893][252]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-6756.037 Y=10878.305 Z=2283.295
+[2016.12.08-13.32.32:911][253]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:911][253]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-6943.406 Y=11180.000 Z=2346.620
+[2016.12.08-13.32.32:931][254]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:931][254]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-7101.807 Y=11435.051 Z=2400.154
+[2016.12.08-13.32.32:953][255]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:953][255]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-7233.830 Y=11647.629 Z=2444.772
+[2016.12.08-13.32.32:972][256]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:973][256]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-7342.326 Y=11822.325 Z=2481.440
+[2016.12.08-13.32.32:996][257]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.32:996][257]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-7430.245 Y=11963.889 Z=2511.154
+[2016.12.08-13.32.33:016][258]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.33:016][258]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-7500.500 Y=12077.010 Z=2534.897
+[2016.12.08-13.32.33:038][259]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.33:038][259]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-7555.861 Y=12166.150 Z=2553.607
+[2016.12.08-13.32.33:061][260]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.33:061][260]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-7598.882 Y=12235.421 Z=2568.147
+[2016.12.08-13.32.33:083][261]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.33:083][261]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-7631.851 Y=12288.506 Z=2579.289
+[2016.12.08-13.32.33:104][262]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] Graph Scale has changed!
+[2016.12.08-13.32.33:104][262]LogBlueprintUserMessages: [GlobalMoleculeTarget_18] X=-7656.766 Y=12328.623 Z=2587.709
+[2016.12.08-13.32.40:203][618]LogEditorViewport: Clicking on Actor (LMB): Level0Node_C (Level0Node13)
+[2016.12.08-13.32.41:706][694]LogEditorViewport: Clicking on Actor (LMB): Level0Node_C (Level0Node10)
+[2016.12.08-13.32.42:574][736]LogEditorViewport: Clicking on Actor (LMB): Level0Node_C (Level0Node10)
+[2016.12.08-13.32.46:179][914]LogEditorViewport: Clicking on Actor (LMB): Level0Node_C (Level0Node13)
+[2016.12.08-13.32.51:741][178]LogSavePackage: Save=17.67ms
+[2016.12.08-13.32.51:741][178]LogSavePackage: Moving '../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Saved/GenomeMk35023EDF3421E00527D189FAFFAAA2C6A.tmp' to '../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/MIT/GenomeMk3.umap'
+[2016.12.08-13.32.51:743][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/MIT/GenomeMk3.umap
+[2016.12.08-13.33.01:263][631]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.08-13.33.01:456][632]Cmd: QUIT_EDITOR
+[2016.12.08-13.33.01:540][632]LogExit: Preparing to exit.
+[2016.12.08-13.33.02:593][632]LogDirectoryWatcher: A directory notification for 'C:/Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/' was aborted.
+[2016.12.08-13.33.02:617][632]LogExit: Editor shut down
+[2016.12.08-13.33.02:617][632]LogExit: Transaction tracking system shut down
+[2016.12.08-13.33.02:714][632]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.08-13.33.02:714][632]LogExit: Object subsystem successfully closed.
+[2016.12.08-13.33.02:734][632]LogD3D11RHI: Shutdown
+[2016.12.08-13.33.02:734][632]LogD3D11RHI: CleanupD3DDevice
+[2016.12.08-13.33.02:792][632]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (238)
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module BlueprintGraph (237)
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (236)
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (235)
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module CrashTracker (234)
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module SceneOutliner (233)
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module WidgetCarousel (232)
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module AddContentDialog (231)
+[2016.12.08-13.33.02:831][632]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module GameplayTags (230)
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module EditorWidgets (229)
+[2016.12.08-13.33.02:831][632]LogModuleManager: Shutting down and abandoning module CollectionManager (228)
+[2016.12.08-13.33.02:832][632]LogDirectoryWatcher: A directory notification for 'C:/Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/Collections/' was aborted.
+[2016.12.08-13.33.02:832][632]LogDirectoryWatcher: A directory notification for 'C:/Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/Developers/spers/Collections/' was aborted.
+[2016.12.08-13.33.02:832][632]LogDirectoryWatcher: A directory notification for 'C:/Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Saved/Collections/' was aborted.
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module StatsViewer (227)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module FoliageEdit (226)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module LandscapeEditor (225)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (224)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module ActorPickerMode (223)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module GeometryMode (222)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module TextureAlignMode (221)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module BspMode (220)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module HardwareSurvey (219)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (218)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module SequenceRecorder (217)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module AutomationWorker (216)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (215)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module PlacementMode (214)
+[2016.12.08-13.33.02:832][632]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (213)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (212)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (211)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (210)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (209)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module Media (208)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (207)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (206)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module CharacterAI (205)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module SmartSnapping (204)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module SessionServices (203)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module ViewportSnapping (202)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module ViewportInteraction (201)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module LogVisualizer (200)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (199)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module IntroTutorials (198)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (197)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (196)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (195)
+[2016.12.08-13.33.02:833][632]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (194)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (193)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (192)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (191)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module NiagaraEditor (190)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module MergeActors (189)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module SizeMap (188)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module TreeMap (187)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module ReferenceViewer (186)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module LocalizationService (185)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (184)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module HardwareTargeting (183)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (182)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module UndoHistory (181)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module UserFeedback (180)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module XmlParser (179)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module Blutility (178)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (177)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (176)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module InputBindingEditor (175)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (174)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module SettingsEditor (173)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module ProjectLauncher (172)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module SessionFrontend (171)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module ProfilerClient (170)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (169)
+[2016.12.08-13.33.03:536][632]LogModuleManager: Shutting down and abandoning module DeviceManager (168)
+[2016.12.08-13.33.03:598][632]LogModuleManager: Shutting down and abandoning module AutomationController (167)
+[2016.12.08-13.33.03:598][632]LogModuleManager: Shutting down and abandoning module AutomationWindow (166)
+[2016.12.08-13.33.03:598][632]LogModuleManager: Shutting down and abandoning module Layers (165)
+[2016.12.08-13.33.03:598][632]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (164)
+[2016.12.08-13.33.03:598][632]LogModuleManager: Shutting down and abandoning module DetailCustomizations (163)
+[2016.12.08-13.33.03:598][632]LogModuleManager: Shutting down and abandoning module PackagesDialog (162)
+[2016.12.08-13.33.03:598][632]LogModuleManager: Shutting down and abandoning module AnimGraph (161)
+[2016.12.08-13.33.03:598][632]LogModuleManager: Shutting down and abandoning module Persona (160)
+[2016.12.08-13.33.03:598][632]LogModuleManager: Shutting down and abandoning module Kismet (159)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module GraphEditor (158)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module ClassViewer (157)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module Toolbox (156)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module ModuleUI (155)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module MovieSceneTools (154)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module OutputLog (153)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module GammaUI (152)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module Documentation (151)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module Niagara (150)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (149)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module AnalyticsET (148)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module PortalServices (147)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module PortalRpc (146)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module MessagingRpc (145)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module GameplayDebugger (144)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module AITestSuite (143)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module AIModule (142)
+[2016.12.08-13.33.03:602][632]LogModuleManager: Shutting down and abandoning module ProfilerService (141)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module TaskGraph (140)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module SlateRemote (139)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module SteamVRController (138)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module SteamVR (137)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (136)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (135)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module OculusLibrary (134)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module OculusInput (133)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (132)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module CableComponent (131)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (130)
+[2016.12.08-13.33.03:751][632]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (128)
+[2016.12.08-13.33.03:752][632]LogModuleManager: Shutting down and abandoning module VaRestEditorPlugin (127)
+[2016.12.08-13.33.03:752][632]LogModuleManager: Shutting down and abandoning module HTML5Networking (126)
+[2016.12.08-13.33.03:752][632]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (125)
+[2016.12.08-13.33.03:752][632]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
+[2016.12.08-13.33.03:752][632]LogModuleManager: Shutting down and abandoning module AlembicLibrary (123)
+[2016.12.08-13.33.03:752][632]LogModuleManager: Shutting down and abandoning module AlembicImporter (122)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module SuperSearch (121)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (120)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (119)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module PluginBrowser (118)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (117)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module EpicSurvey (116)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module DesktopPlatform (115)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (114)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module UObjectPlugin (113)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (112)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (111)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module SourceControl (110)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module GitSourceControl (109)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (108)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (107)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (106)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module MeshPaint (105)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (104)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.12.08-13.33.03:753][632]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.12.08-13.33.03:754][632]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.12.08-13.33.03:754][632]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.12.08-13.33.03:755][632]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.12.08-13.33.03:755][632]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.12.08-13.33.03:756][632]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2016.12.08-13.33.03:856][632]LogModuleManager: Shutting down and abandoning module TcpMessaging (96)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module VaRestPlugin (95)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.12.08-13.33.03:957][632]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.12.08-13.33.03:958][632]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.12.08-13.33.03:958][632]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.12.08-13.33.03:958][632]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.12.08-13.33.03:958][632]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.12.08-13.33.03:958][632]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.12.08-13.33.03:958][632]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.12.08-13.33.03:958][632]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.12.08-13.33.03:958][632]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.12.08-13.33.03:960][632]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.12.08-13.33.03:960][632]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.12.08-13.33.03:960][632]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.12.08-13.33.03:960][632]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.12.08-13.33.03:960][632]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.12.08-13.33.03:960][632]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.12.08-13.33.03:960][632]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.12.08-13.33.03:960][632]LogDirectoryWatcher: A directory notification for '../../../../../../Users/spers/Documents/GitHub/VirtuallyAGenome/UE4_VirtuallyAGenome/Content/' was aborted.
+[2016.12.08-13.33.03:960][632]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.12.08-13.33.03:961][632]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.12.08-13.33.04:054][632]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.12.08-13.33.04:054][632]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.12.08-13.33.04:054][632]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.12.08-13.33.04:054][632]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.12.08-13.33.04:071][632]LogDerivedDataCache: Shutdown
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.12.08-13.33.04:071][632]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.12.08-13.33.04:072][632]LogHMD: Oculus shutdown.
+[2016.12.08-13.33.04:072][632]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.12.08-13.33.04:072][632]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.12.08-13.33.04:072][632]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.12.08-13.33.04:072][632]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.12.08-13.33.04:072][632]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.08-13.33.04:073][632]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.08-13.33.04:073][632]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.12.08-13.33.04:073][632]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DB5B434-4071-08D9-CE7D-ADBD39E31369%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=15fcdc1f4eb413b575fa7d8d0404f1ce%7Ce2e362a1397f4ad9b4b34ce874d01e82%7C3bc006b6-6e51-4884-b41c-2fa9126793ac&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.12.08-13.33.04:081][632]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.08-13.33.04:081][632]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.08-13.33.04:081][632]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.08-13.33.04:081][632]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.08-13.33.04:081][632]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.08-13.33.04:083][632]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.08-13.33.04:083][632]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.08-13.33.04:083][632]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.08-13.33.04:083][632]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.08-13.33.04:083][632]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.08-13.33.04:083][632]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.08-13.33.04:083][632]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.08-13.33.04:083][632]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.08-13.33.04:083][632]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.08-13.33.04:083][632]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.08-13.33.04:085][632]LogExit: Exiting.
+[2016.12.08-13.33.04:086][632]Log file closed, 12/08/16 08:33:04
